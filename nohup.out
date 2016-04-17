@@ -1,0 +1,442 @@
+ * Running on http://162.243.211.114:80/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 244-981-563
+ * Running on http://162.243.211.114:80/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 244-981-563
+35.2.104.24 - - [15/Apr/2016 20:05:21] "GET / HTTP/1.1" 200 -
+35.2.104.24 - - [15/Apr/2016 20:05:58] "GET / HTTP/1.1" 200 -
+35.2.104.24 - - [15/Apr/2016 20:05:59] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+35.2.104.24 - - [15/Apr/2016 20:05:59] "GET /static/css/grayscale.css HTTP/1.1" 304 -
+35.2.104.24 - - [15/Apr/2016 20:05:59] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+35.2.104.24 - - [15/Apr/2016 20:05:59] "GET /static/js/jquery.js HTTP/1.1" 304 -
+35.2.104.24 - - [15/Apr/2016 20:05:59] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+35.2.104.24 - - [15/Apr/2016 20:05:59] "GET /static/js/jquery.easing.min.js HTTP/1.1" 304 -
+35.2.104.24 - - [15/Apr/2016 20:05:59] "GET /static/js/grayscale.js HTTP/1.1" 304 -
+35.2.104.24 - - [15/Apr/2016 20:05:59] "GET /static/files/photo.thumbnail.JPG HTTP/1.1" 304 -
+35.2.104.24 - - [15/Apr/2016 20:05:59] "GET /static/files/eecshelpscreenshot.png HTTP/1.1" 304 -
+35.2.104.24 - - [15/Apr/2016 20:05:59] "GET /static/files/bang.png HTTP/1.1" 304 -
+35.2.104.24 - - [15/Apr/2016 20:05:59] "GET /static/files/smallcircle.png HTTP/1.1" 304 -
+35.2.104.24 - - [15/Apr/2016 20:05:59] "GET /static/img/mountains.jpg HTTP/1.1" 304 -
+35.2.104.24 - - [15/Apr/2016 20:05:59] "GET /static/files/icon.png HTTP/1.1" 200 -
+35.2.104.24 - - [15/Apr/2016 20:06:45] "GET / HTTP/1.1" 200 -
+35.2.104.24 - - [15/Apr/2016 20:06:45] "GET /static/js/jquery.js HTTP/1.1" 304 -
+35.2.104.24 - - [15/Apr/2016 20:06:45] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+35.2.104.24 - - [15/Apr/2016 20:06:45] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+35.2.104.24 - - [15/Apr/2016 20:06:45] "GET /static/css/grayscale.css HTTP/1.1" 304 -
+35.2.104.24 - - [15/Apr/2016 20:06:45] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+35.2.104.24 - - [15/Apr/2016 20:06:45] "GET /static/js/jquery.easing.min.js HTTP/1.1" 304 -
+35.2.104.24 - - [15/Apr/2016 20:06:45] "GET /static/files/eecshelpscreenshot.png HTTP/1.1" 304 -
+35.2.104.24 - - [15/Apr/2016 20:06:45] "GET /static/files/photo.thumbnail.JPG HTTP/1.1" 304 -
+35.2.104.24 - - [15/Apr/2016 20:06:45] "GET /static/js/grayscale.js HTTP/1.1" 304 -
+35.2.104.24 - - [15/Apr/2016 20:06:45] "GET /static/files/bang.png HTTP/1.1" 304 -
+35.2.104.24 - - [15/Apr/2016 20:06:45] "GET /static/files/smallcircle.png HTTP/1.1" 304 -
+35.2.104.24 - - [15/Apr/2016 20:06:46] "GET /static/img/mountains.jpg HTTP/1.1" 304 -
+35.2.104.24 - - [15/Apr/2016 20:06:46] "GET /static/files/icon.png HTTP/1.1" 200 -
+35.2.104.24 - - [15/Apr/2016 20:20:10] "GET / HTTP/1.1" 200 -
+35.2.104.24 - - [15/Apr/2016 20:20:10] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+35.2.104.24 - - [15/Apr/2016 20:20:10] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+35.2.104.24 - - [15/Apr/2016 20:20:10] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+35.2.104.24 - - [15/Apr/2016 20:20:10] "GET /static/js/jquery.js HTTP/1.1" 304 -
+35.2.104.24 - - [15/Apr/2016 20:20:10] "GET /static/css/grayscale.css HTTP/1.1" 304 -
+35.2.104.24 - - [15/Apr/2016 20:20:10] "GET /static/js/jquery.easing.min.js HTTP/1.1" 304 -
+35.2.104.24 - - [15/Apr/2016 20:20:10] "GET /static/js/grayscale.js HTTP/1.1" 304 -
+35.2.104.24 - - [15/Apr/2016 20:20:10] "GET /static/files/smallcircle.png HTTP/1.1" 304 -
+35.2.104.24 - - [15/Apr/2016 20:20:10] "GET /static/files/eecshelpscreenshot.png HTTP/1.1" 304 -
+35.2.104.24 - - [15/Apr/2016 20:20:10] "GET /static/files/photo.thumbnail.JPG HTTP/1.1" 304 -
+35.2.104.24 - - [15/Apr/2016 20:20:10] "GET /static/files/bang.png HTTP/1.1" 304 -
+35.2.104.24 - - [15/Apr/2016 20:20:10] "GET /static/img/mountains.jpg HTTP/1.1" 304 -
+35.2.104.24 - - [15/Apr/2016 20:20:11] "GET /static/files/icon.png HTTP/1.1" 200 -
+35.2.71.95 - - [15/Apr/2016 20:20:15] "GET / HTTP/1.1" 200 -
+23.20.197.30 - - [15/Apr/2016 20:21:09] "HEAD / HTTP/1.1" 200 -
+208.54.40.231 - - [15/Apr/2016 20:22:07] "GET / HTTP/1.1" 200 -
+208.54.40.231 - - [15/Apr/2016 20:22:07] "GET /static/css/grayscale.css HTTP/1.1" 200 -
+208.54.40.231 - - [15/Apr/2016 20:22:07] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+208.54.40.231 - - [15/Apr/2016 20:22:07] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+208.54.40.231 - - [15/Apr/2016 20:22:07] "GET /static/js/jquery.js HTTP/1.1" 200 -
+208.54.40.231 - - [15/Apr/2016 20:22:08] "GET /static/js/jquery.easing.min.js HTTP/1.1" 200 -
+208.54.40.231 - - [15/Apr/2016 20:22:08] "GET /static/files/photo.thumbnail.JPG HTTP/1.1" 200 -
+208.54.40.231 - - [15/Apr/2016 20:22:08] "GET /static/js/grayscale.js HTTP/1.1" 200 -
+208.54.40.231 - - [15/Apr/2016 20:22:08] "GET /static/files/eecshelpscreenshot.png HTTP/1.1" 200 -
+208.54.40.231 - - [15/Apr/2016 20:22:08] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+208.54.40.231 - - [15/Apr/2016 20:22:08] "GET /static/img/mountains.jpg HTTP/1.1" 200 -
+Error on request:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 193, in run_wsgi
+    execute(self.server.app)
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 184, in execute
+    write(data)
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 165, in write
+    self.wfile.write(data)
+IOError: [Errno 32] Broken pipe
+208.54.40.231 - - [15/Apr/2016 20:22:08] "GET /static/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0 HTTP/1.1" 200 -
+Error on request:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 193, in run_wsgi
+    execute(self.server.app)
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 184, in execute
+    write(data)
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 165, in write
+    self.wfile.write(data)
+IOError: [Errno 32] Broken pipe
+208.54.40.231 - - [15/Apr/2016 20:22:08] "GET /static/files/smallcircle.png HTTP/1.1" 200 -
+Error on request:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 193, in run_wsgi
+    execute(self.server.app)
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 184, in execute
+    write(data)
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 165, in write
+    self.wfile.write(data)
+IOError: [Errno 32] Broken pipe
+208.54.40.231 - - [15/Apr/2016 20:22:08] "GET /static/files/bang.png HTTP/1.1" 200 -
+208.54.40.231 - - [15/Apr/2016 20:22:08] "GET /static/font-awesome/fonts/fontawesome-webfont.ttf?v=4.2.0 HTTP/1.1" 200 -
+Error on request:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 193, in run_wsgi
+    execute(self.server.app)
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 184, in execute
+    write(data)
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 165, in write
+    self.wfile.write(data)
+IOError: [Errno 32] Broken pipe
+208.54.40.231 - - [15/Apr/2016 20:22:13] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+208.54.40.231 - - [15/Apr/2016 20:22:13] "GET /static/files/eecshelpscreenshot.png HTTP/1.1" 200 -
+208.54.40.231 - - [15/Apr/2016 20:22:13] "GET /static/files/smallcircle.png HTTP/1.1" 200 -
+208.54.40.231 - - [15/Apr/2016 20:22:13] "GET /static/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0 HTTP/1.1" 200 -
+208.54.40.231 - - [15/Apr/2016 20:22:13] "GET /static/files/bang.png HTTP/1.1" 200 -
+208.54.40.231 - - [15/Apr/2016 20:22:13] "GET /static/img/mountains.jpg HTTP/1.1" 200 -
+208.54.40.231 - - [15/Apr/2016 20:22:14] "GET /static/files/icon.png HTTP/1.1" 200 -
+208.54.40.231 - - [15/Apr/2016 20:22:16] "GET / HTTP/1.1" 200 -
+208.54.40.231 - - [15/Apr/2016 20:22:16] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+208.54.40.231 - - [15/Apr/2016 20:22:16] "GET /static/css/grayscale.css HTTP/1.1" 304 -
+208.54.40.231 - - [15/Apr/2016 20:22:16] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+208.54.40.231 - - [15/Apr/2016 20:22:16] "GET /static/js/jquery.js HTTP/1.1" 304 -
+208.54.40.231 - - [15/Apr/2016 20:22:16] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+208.54.40.231 - - [15/Apr/2016 20:22:16] "GET /static/js/jquery.easing.min.js HTTP/1.1" 304 -
+208.54.40.231 - - [15/Apr/2016 20:22:16] "GET /static/js/grayscale.js HTTP/1.1" 304 -
+208.54.40.231 - - [15/Apr/2016 20:22:16] "GET /static/files/photo.thumbnail.JPG HTTP/1.1" 304 -
+208.54.40.231 - - [15/Apr/2016 20:22:16] "GET /static/files/eecshelpscreenshot.png HTTP/1.1" 304 -
+208.54.40.231 - - [15/Apr/2016 20:22:16] "GET /static/files/bang.png HTTP/1.1" 304 -
+208.54.40.231 - - [15/Apr/2016 20:22:16] "GET /static/files/smallcircle.png HTTP/1.1" 304 -
+208.54.40.231 - - [15/Apr/2016 20:22:17] "GET /static/img/mountains.jpg HTTP/1.1" 304 -
+208.54.40.231 - - [15/Apr/2016 20:22:17] "GET /static/files/icon.png HTTP/1.1" 200 -
+101.200.123.52 - - [15/Apr/2016 20:37:02] "GET /phpMyAdmin/scripts/setup.php HTTP/1.1" 404 -
+101.200.123.52 - - [15/Apr/2016 20:37:12] "GET /pma/scripts/setup.php HTTP/1.1" 404 -
+101.200.123.52 - - [15/Apr/2016 20:37:22] "GET /myadmin/scripts/setup.php HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:32] "HEAD http://162.243.211.114:80/1phpmyadmin/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:32] "HEAD http://162.243.211.114:80/4phpmyadmin/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:32] "HEAD http://162.243.211.114:80/MyAdmin/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:32] "HEAD http://162.243.211.114:80/PMA/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:32] "HEAD http://162.243.211.114:80/PMA2011/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:33] "HEAD http://162.243.211.114:80/PMA2012/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:33] "HEAD http://162.243.211.114:80/PMA2013/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:33] "HEAD http://162.243.211.114:80/PMA2014/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:33] "HEAD http://162.243.211.114:80/PMA2015/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:33] "HEAD http://162.243.211.114:80/admin/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:33] "HEAD http://162.243.211.114:80/admin/db/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:34] "HEAD http://162.243.211.114:80/admin/pMA/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:34] "HEAD http://162.243.211.114:80/admin/phpMyAdmin/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:34] "HEAD http://162.243.211.114:80/admin/phpmyadmin/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:34] "HEAD http://162.243.211.114:80/admin/sqladmin/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:34] "HEAD http://162.243.211.114:80/admin/sysadmin/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:34] "HEAD http://162.243.211.114:80/admin/web/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:35] "HEAD http://162.243.211.114:80/administrator/PMA/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:35] "HEAD http://162.243.211.114:80/administrator/admin/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:35] "HEAD http://162.243.211.114:80/administrator/db/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:35] "HEAD http://162.243.211.114:80/administrator/phpMyAdmin/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:35] "HEAD http://162.243.211.114:80/administrator/phpmyadmin/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:35] "HEAD http://162.243.211.114:80/administrator/pma/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:36] "HEAD http://162.243.211.114:80/administrator/web/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:36] "HEAD http://162.243.211.114:80/database/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:36] "HEAD http://162.243.211.114:80/db/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:36] "HEAD http://162.243.211.114:80/db/db-admin/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:36] "HEAD http://162.243.211.114:80/db/dbadmin/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:36] "HEAD http://162.243.211.114:80/db/dbweb/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:37] "HEAD http://162.243.211.114:80/db/myadmin/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:37] "HEAD http://162.243.211.114:80/db/phpMyAdmin-3/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:37] "HEAD http://162.243.211.114:80/db/phpMyAdmin/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:37] "HEAD http://162.243.211.114:80/db/phpMyAdmin3/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:37] "HEAD http://162.243.211.114:80/db/phpmyadmin/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:37] "HEAD http://162.243.211.114:80/db/phpmyadmin3/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:38] "HEAD http://162.243.211.114:80/db/webadmin/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:38] "HEAD http://162.243.211.114:80/db/webdb/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:38] "HEAD http://162.243.211.114:80/db/websql/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:38] "HEAD http://162.243.211.114:80/dbadmin/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:38] "HEAD http://162.243.211.114:80/myadmin/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:38] "HEAD http://162.243.211.114:80/myadminphp/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:39] "HEAD http://162.243.211.114:80/mysql-admin/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:39] "HEAD http://162.243.211.114:80/mysql/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:39] "HEAD http://162.243.211.114:80/mysql/admin/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:39] "HEAD http://162.243.211.114:80/mysql/db/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:39] "HEAD http://162.243.211.114:80/mysql/dbadmin/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:39] "HEAD http://162.243.211.114:80/mysql/mysqlmanager/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:40] "HEAD http://162.243.211.114:80/mysql/pMA/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:40] "HEAD http://162.243.211.114:80/mysql/pma/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:40] "HEAD http://162.243.211.114:80/mysql/sqlmanager/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:40] "HEAD http://162.243.211.114:80/mysql/web/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:40] "HEAD http://162.243.211.114:80/mysqladmin/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:40] "HEAD http://162.243.211.114:80/mysqlmanager/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:41] "HEAD http://162.243.211.114:80/php-my-admin/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:41] "HEAD http://162.243.211.114:80/php-myadmin/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:41] "HEAD http://162.243.211.114:80/phpMyAdmin-2/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:41] "HEAD http://162.243.211.114:80/phpMyAdmin-3/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:41] "HEAD http://162.243.211.114:80/phpMyAdmin-4/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:41] "HEAD http://162.243.211.114:80/phpMyAdmin/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:41] "HEAD http://162.243.211.114:80/phpMyAdmin2/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:42] "HEAD http://162.243.211.114:80/phpMyAdmin3/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:42] "HEAD http://162.243.211.114:80/phpMyAdmin4/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:42] "HEAD http://162.243.211.114:80/phpMyadmin/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:42] "HEAD http://162.243.211.114:80/phpmanager/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:42] "HEAD http://162.243.211.114:80/phpmy-admin/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:42] "HEAD http://162.243.211.114:80/phpmy/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:43] "HEAD http://162.243.211.114:80/phpmyAdmin/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:43] "HEAD http://162.243.211.114:80/phpmyadmin/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:43] "HEAD http://162.243.211.114:80/phpmyadmin1/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:43] "HEAD http://162.243.211.114:80/phpmyadmin2/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:43] "HEAD http://162.243.211.114:80/phpmyadmin3/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:43] "HEAD http://162.243.211.114:80/phpmyadmin4/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:44] "HEAD http://162.243.211.114:80/phppma/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:44] "HEAD http://162.243.211.114:80/pma/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:44] "HEAD http://162.243.211.114:80/pma2011/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:44] "HEAD http://162.243.211.114:80/pma2012/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:44] "HEAD http://162.243.211.114:80/pma2013/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:44] "HEAD http://162.243.211.114:80/pma2014/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:45] "HEAD http://162.243.211.114:80/pma2015/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:45] "HEAD http://162.243.211.114:80/program/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:45] "HEAD http://162.243.211.114:80/shopdb/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:45] "HEAD http://162.243.211.114:80/sql/myadmin/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:45] "HEAD http://162.243.211.114:80/sql/php-myadmin/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:45] "HEAD http://162.243.211.114:80/sql/phpMyAdmin/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:46] "HEAD http://162.243.211.114:80/sql/phpMyAdmin2/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:46] "HEAD http://162.243.211.114:80/sql/phpMyAdmin3/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:46] "HEAD http://162.243.211.114:80/sql/phpMyAdmin4/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:46] "HEAD http://162.243.211.114:80/sql/phpmanager/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:46] "HEAD http://162.243.211.114:80/sql/phpmy-admin/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:47] "HEAD http://162.243.211.114:80/sql/phpmyadmin2/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:47] "HEAD http://162.243.211.114:80/sql/phpmyadmin3/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:47] "HEAD http://162.243.211.114:80/sql/phpmyadmin4/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:47] "HEAD http://162.243.211.114:80/sql/sql-admin/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:47] "HEAD http://162.243.211.114:80/sql/sql/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:47] "HEAD http://162.243.211.114:80/sql/sqladmin/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:48] "HEAD http://162.243.211.114:80/sql/sqlweb/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:48] "HEAD http://162.243.211.114:80/sql/webadmin/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:48] "HEAD http://162.243.211.114:80/sql/webdb/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:48] "HEAD http://162.243.211.114:80/sql/websql/ HTTP/1.1" 404 -
+54.183.221.232 - - [15/Apr/2016 23:32:48] "HEAD http://162.243.211.114:80/sqlmanager/ HTTP/1.1" 404 -
+98.209.16.143 - - [16/Apr/2016 01:43:07] "GET / HTTP/1.1" 200 -
+98.209.16.143 - - [16/Apr/2016 01:43:07] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+98.209.16.143 - - [16/Apr/2016 01:43:07] "GET /static/css/grayscale.css HTTP/1.1" 200 -
+98.209.16.143 - - [16/Apr/2016 01:43:07] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+98.209.16.143 - - [16/Apr/2016 01:43:07] "GET /static/js/jquery.js HTTP/1.1" 200 -
+98.209.16.143 - - [16/Apr/2016 01:43:07] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+98.209.16.143 - - [16/Apr/2016 01:43:07] "GET /static/js/jquery.easing.min.js HTTP/1.1" 200 -
+98.209.16.143 - - [16/Apr/2016 01:43:07] "GET /static/js/grayscale.js HTTP/1.1" 200 -
+98.209.16.143 - - [16/Apr/2016 01:43:07] "GET /static/files/eecshelpscreenshot.png HTTP/1.1" 200 -
+98.209.16.143 - - [16/Apr/2016 01:43:07] "GET /static/files/photo.thumbnail.JPG HTTP/1.1" 200 -
+98.209.16.143 - - [16/Apr/2016 01:43:07] "GET /static/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0 HTTP/1.1" 200 -
+98.209.16.143 - - [16/Apr/2016 01:43:07] "GET /static/files/smallcircle.png HTTP/1.1" 200 -
+98.209.16.143 - - [16/Apr/2016 01:43:07] "GET /static/files/bang.png HTTP/1.1" 200 -
+98.209.16.143 - - [16/Apr/2016 01:43:08] "GET /static/img/mountains.jpg HTTP/1.1" 200 -
+98.209.16.143 - - [16/Apr/2016 01:43:09] "GET /static/files/icon.png HTTP/1.1" 200 -
+118.161.69.244 - - [16/Apr/2016 01:52:18] "CONNECT smtp.mail.yahoo.com:25 HTTP/1.0" 404 -
+169.229.3.91 - - [16/Apr/2016 03:31:23] code 400, message Bad request version (':')
+169.229.3.91 - - [16/Apr/2016 03:31:23] "∫4P!EÀØﬁi†BtçÑ∑!ÔÉo÷õÕJe-n◊í¢›à}Éﬂví/ô?˛ñOFçKò°\‹t¥	mòp:" 400 -
+Traceback (most recent call last):
+  File "app.py", line 9, in <module>
+    app.run(host='162.243.211.114',port=80,debug=True)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 772, in run
+    run_simple(host, port, self, **options)
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 677, in run_simple
+    s.bind((hostname, port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+35.2.104.24 - - [16/Apr/2016 12:35:48] "GET / HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 12:35:48] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 12:35:48] "GET /static/css/grayscale.css HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 12:35:48] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 12:35:48] "GET /static/js/jquery.js HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 12:35:48] "GET /static/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0 HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 12:35:48] "GET /static/js/jquery.easing.min.js HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 12:35:48] "GET /static/js/grayscale.js HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 12:35:48] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 12:35:48] "GET /static/files/photo.thumbnail.JPG HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 12:35:48] "GET /static/files/eecshelpscreenshot.png HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 12:35:48] "GET /static/files/smallcircle.png HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 12:35:48] "GET /static/files/bang.png HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 12:35:48] "GET /static/img/mountains.jpg HTTP/1.1" 200 -
+173.252.120.111 - - [16/Apr/2016 12:37:56] "GET /static/files/eecshelpscreenshot.png HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 12:59:24] "GET / HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 14:42:43] "GET / HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 14:42:43] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 14:42:43] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 14:42:43] "GET /static/css/grayscale.css HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 14:42:43] "GET /static/files/photo.thumbnail.JPG HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 14:42:43] "GET /static/files/eecshelpscreenshot.png HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 14:42:43] "GET /static/files/smallcircle.png HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 14:42:43] "GET /static/files/bang.png HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 14:42:43] "GET /static/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0 HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 14:42:43] "GET /static/img/mountains.jpg HTTP/1.1" 200 -
+185.49.14.190 - - [16/Apr/2016 16:20:38] "GET http://testp4.pospr.waw.pl/testproxy.php HTTP/1.1" 404 -
+80.82.78.38 - - [16/Apr/2016 16:23:58] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 -
+82.221.105.7 - - [16/Apr/2016 17:19:16] "GET / HTTP/1.1" 200 -
+82.221.105.7 - - [16/Apr/2016 17:19:17] "GET /robots.txt HTTP/1.1" 404 -
+82.221.105.7 - - [16/Apr/2016 17:19:17] "GET /sitemap.xml HTTP/1.1" 404 -
+35.2.104.24 - - [16/Apr/2016 17:43:50] "GET / HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 17:43:50] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 17:43:50] "GET /static/css/grayscale.css HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 17:43:50] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 17:43:50] "GET /static/js/jquery.js HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 17:43:50] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 17:43:50] "GET /static/js/jquery.easing.min.js HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 17:43:50] "GET /static/files/photo.thumbnail.JPG HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 17:43:50] "GET /static/js/grayscale.js HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 17:43:50] "GET /static/files/eecshelpscreenshot.png HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 17:43:51] "GET /static/files/smallcircle.png HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 17:43:51] "GET /static/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0 HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 17:43:51] "GET /static/files/bang.png HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 17:43:51] "GET /static/img/mountains.jpg HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 17:43:51] "GET /static/files/icon.png HTTP/1.1" 200 -
+92.222.246.137 - - [16/Apr/2016 17:51:23] "GET /xmlrpc.php HTTP/1.1" 404 -
+110.10.82.110 - - [16/Apr/2016 21:40:38] "POST /cgi-bin/php?%2D%64+%61%6C%6C%6F%77%5F%75%72%6C%5F%69%6E%63%6C%75%64%65%3D%6F%6E+%2D%64+%73%61%66%65%5F%6D%6F%64%65%3D%6F%66%66+%2D%64+%73%75%68%6F%73%69%6E%2E%73%69%6D%75%6C%61%74%69%6F%6E%3D%6F%6E+%2D%64+%64%69%73%61%62%6C%65%5F%66%75%6E%63%74%69%6F%6E%73%3D%22%22+%2D%64+%6F%70%65%6E%5F%62%61%73%65%64%69%72%3D%6E%6F%6E%65+%2D%64+%61%75%74%6F%5F%70%72%65%70%65%6E%64%5F%66%69%6C%65%3D%70%68%70%3A%2F%2F%69%6E%70%75%74+%2D%64+%63%67%69%2E%66%6F%72%63%65%5F%72%65%64%69%72%65%63%74%3D%30+%2D%64+%63%67%69%2E%72%65%64%69%72%65%63%74%5F%73%74%61%74%75%73%5F%65%6E%76%3D%30+%2D%6E HTTP/1.1" 404 -
+110.10.82.110 - - [16/Apr/2016 21:40:39] "POST /cgi-bin/php5?%2D%64+%61%6C%6C%6F%77%5F%75%72%6C%5F%69%6E%63%6C%75%64%65%3D%6F%6E+%2D%64+%73%61%66%65%5F%6D%6F%64%65%3D%6F%66%66+%2D%64+%73%75%68%6F%73%69%6E%2E%73%69%6D%75%6C%61%74%69%6F%6E%3D%6F%6E+%2D%64+%64%69%73%61%62%6C%65%5F%66%75%6E%63%74%69%6F%6E%73%3D%22%22+%2D%64+%6F%70%65%6E%5F%62%61%73%65%64%69%72%3D%6E%6F%6E%65+%2D%64+%61%75%74%6F%5F%70%72%65%70%65%6E%64%5F%66%69%6C%65%3D%70%68%70%3A%2F%2F%69%6E%70%75%74+%2D%64+%63%67%69%2E%66%6F%72%63%65%5F%72%65%64%69%72%65%63%74%3D%30+%2D%64+%63%67%69%2E%72%65%64%69%72%65%63%74%5F%73%74%61%74%75%73%5F%65%6E%76%3D%30+%2D%6E HTTP/1.1" 404 -
+110.10.82.110 - - [16/Apr/2016 21:40:39] "POST /cgi-bin/php-cgi?%2D%64+%61%6C%6C%6F%77%5F%75%72%6C%5F%69%6E%63%6C%75%64%65%3D%6F%6E+%2D%64+%73%61%66%65%5F%6D%6F%64%65%3D%6F%66%66+%2D%64+%73%75%68%6F%73%69%6E%2E%73%69%6D%75%6C%61%74%69%6F%6E%3D%6F%6E+%2D%64+%64%69%73%61%62%6C%65%5F%66%75%6E%63%74%69%6F%6E%73%3D%22%22+%2D%64+%6F%70%65%6E%5F%62%61%73%65%64%69%72%3D%6E%6F%6E%65+%2D%64+%61%75%74%6F%5F%70%72%65%70%65%6E%64%5F%66%69%6C%65%3D%70%68%70%3A%2F%2F%69%6E%70%75%74+%2D%64+%63%67%69%2E%66%6F%72%63%65%5F%72%65%64%69%72%65%63%74%3D%30+%2D%64+%63%67%69%2E%72%65%64%69%72%65%63%74%5F%73%74%61%74%75%73%5F%65%6E%76%3D%30+%2D%6E HTTP/1.1" 404 -
+110.10.82.110 - - [16/Apr/2016 21:40:39] "POST /cgi-bin/php.cgi?%2D%64+%61%6C%6C%6F%77%5F%75%72%6C%5F%69%6E%63%6C%75%64%65%3D%6F%6E+%2D%64+%73%61%66%65%5F%6D%6F%64%65%3D%6F%66%66+%2D%64+%73%75%68%6F%73%69%6E%2E%73%69%6D%75%6C%61%74%69%6F%6E%3D%6F%6E+%2D%64+%64%69%73%61%62%6C%65%5F%66%75%6E%63%74%69%6F%6E%73%3D%22%22+%2D%64+%6F%70%65%6E%5F%62%61%73%65%64%69%72%3D%6E%6F%6E%65+%2D%64+%61%75%74%6F%5F%70%72%65%70%65%6E%64%5F%66%69%6C%65%3D%70%68%70%3A%2F%2F%69%6E%70%75%74+%2D%64+%63%67%69%2E%66%6F%72%63%65%5F%72%65%64%69%72%65%63%74%3D%30+%2D%64+%63%67%69%2E%72%65%64%69%72%65%63%74%5F%73%74%61%74%75%73%5F%65%6E%76%3D%30+%2D%6E HTTP/1.1" 404 -
+110.10.82.110 - - [16/Apr/2016 21:40:40] "POST /cgi-bin/php4?%2D%64+%61%6C%6C%6F%77%5F%75%72%6C%5F%69%6E%63%6C%75%64%65%3D%6F%6E+%2D%64+%73%61%66%65%5F%6D%6F%64%65%3D%6F%66%66+%2D%64+%73%75%68%6F%73%69%6E%2E%73%69%6D%75%6C%61%74%69%6F%6E%3D%6F%6E+%2D%64+%64%69%73%61%62%6C%65%5F%66%75%6E%63%74%69%6F%6E%73%3D%22%22+%2D%64+%6F%70%65%6E%5F%62%61%73%65%64%69%72%3D%6E%6F%6E%65+%2D%64+%61%75%74%6F%5F%70%72%65%70%65%6E%64%5F%66%69%6C%65%3D%70%68%70%3A%2F%2F%69%6E%70%75%74+%2D%64+%63%67%69%2E%66%6F%72%63%65%5F%72%65%64%69%72%65%63%74%3D%30+%2D%64+%63%67%69%2E%72%65%64%69%72%65%63%74%5F%73%74%61%74%75%73%5F%65%6E%76%3D%30+%2D%6E HTTP/1.1" 404 -
+35.2.104.24 - - [16/Apr/2016 22:13:01] "GET / HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 22:13:01] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 22:13:01] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 22:13:01] "GET /static/css/grayscale.css HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 22:13:01] "GET /static/js/jquery.js HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 22:13:01] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 22:13:01] "GET /static/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0 HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 22:13:01] "GET /static/js/jquery.easing.min.js HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 22:13:01] "GET /static/js/grayscale.js HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 22:13:01] "GET /static/files/photo.thumbnail.JPG HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 22:13:01] "GET /static/files/eecshelpscreenshot.png HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 22:13:01] "GET /static/img/mountains.jpg HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 22:13:02] "GET /static/files/smallcircle.png HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 22:13:02] "GET /static/files/bang.png HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 22:13:17] "GET / HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 22:13:18] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 22:13:18] "GET /static/css/grayscale.css HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 22:13:18] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 22:13:18] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 22:13:18] "GET /static/js/jquery.easing.min.js HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 22:13:18] "GET /static/js/grayscale.js HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 22:13:18] "GET /static/files/photo.thumbnail.JPG HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 22:13:18] "GET /static/files/smallcircle.png HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 22:13:18] "GET /static/files/eecshelpscreenshot.png HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 22:13:18] "GET /static/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0 HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 22:13:18] "GET /static/files/bang.png HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 22:13:18] "GET /static/img/mountains.jpg HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 22:13:47] "GET /favicon.ico HTTP/1.1" 404 -
+35.2.104.24 - - [16/Apr/2016 22:16:53] "GET / HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 22:16:57] "GET / HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 22:16:57] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:16:57] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:16:57] "GET /static/css/grayscale.css HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:16:57] "GET /static/js/jquery.js HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:16:57] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:16:57] "GET /static/js/jquery.easing.min.js HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:16:57] "GET /static/js/grayscale.js HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:16:57] "GET /static/files/photo.thumbnail.JPG HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:16:57] "GET /static/files/eecshelpscreenshot.png HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:16:57] "GET /static/files/smallcircle.png HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:16:57] "GET /static/files/bang.png HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:16:58] "GET /static/img/mountains.jpg HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:17:58] "GET / HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 22:17:58] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:17:58] "GET /static/css/grayscale.css HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:17:58] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:17:58] "GET /static/js/jquery.js HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:17:58] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:17:58] "GET /static/js/jquery.easing.min.js HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:17:59] "GET /static/js/grayscale.js HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:17:59] "GET /static/files/photo.thumbnail.JPG HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:17:59] "GET /static/files/eecshelpscreenshot.png HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:17:59] "GET /static/files/smallcircle.png HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:17:59] "GET /static/files/bang.png HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:17:59] "GET /static/img/mountains.jpg HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:18:31] "GET / HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 22:18:31] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:18:31] "GET /static/css/grayscale.css HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:18:31] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:18:31] "GET /static/js/jquery.js HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:18:31] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:18:31] "GET /static/js/jquery.easing.min.js HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:18:32] "GET /static/js/grayscale.js HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:18:32] "GET /static/files/photo.thumbnail.JPG HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:18:32] "GET /static/files/eecshelpscreenshot.png HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:18:32] "GET /static/files/smallcircle.png HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:18:32] "GET /static/files/bang.png HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:18:32] "GET /static/img/mountains.jpg HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:20:38] "GET / HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 22:20:38] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:20:38] "GET /static/css/grayscale.css HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:20:38] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:20:38] "GET /static/js/jquery.js HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:20:38] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:20:38] "GET /static/js/jquery.easing.min.js HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:20:39] "GET /static/js/grayscale.js HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:20:39] "GET /static/files/photo.thumbnail.JPG HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:20:39] "GET /static/files/smallcircle.png HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:20:39] "GET /static/files/bang.png HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:20:39] "GET /static/files/eecshelpscreenshot.png HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:20:39] "GET /static/img/mountains.jpg HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:21:14] "GET / HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 22:21:15] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:21:15] "GET /static/css/grayscale.css HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:21:15] "GET /static/js/jquery.js HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:21:15] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:21:15] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:21:15] "GET /static/js/jquery.easing.min.js HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:21:15] "GET /static/js/grayscale.js HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:21:15] "GET /static/files/photo.thumbnail.JPG HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:21:15] "GET /static/files/eecshelpscreenshot.png HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:21:15] "GET /static/files/smallcircle.png HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:21:15] "GET /static/files/bang.png HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:21:15] "GET /static/img/mountains.jpg HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:21:44] "GET / HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 22:21:45] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:21:45] "GET /static/css/grayscale.css HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:21:45] "GET /static/js/jquery.js HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:21:45] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:21:45] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:21:45] "GET /static/js/jquery.easing.min.js HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:21:45] "GET /static/js/grayscale.js HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:21:45] "GET /static/files/photo.thumbnail.JPG HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:21:45] "GET /static/files/eecshelpscreenshot.png HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:21:45] "GET /static/files/bang.png HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:21:45] "GET /static/files/smallcircle.png HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:21:45] "GET /static/img/mountains.jpg HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:23:47] "GET / HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 22:23:47] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:23:47] "GET /static/css/grayscale.css HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:23:47] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:23:47] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:23:47] "GET /static/js/jquery.js HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:23:47] "GET /static/js/jquery.easing.min.js HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:23:47] "GET /static/js/grayscale.js HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:23:47] "GET /static/files/photo.thumbnail.JPG HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:23:47] "GET /static/files/eecshelpscreenshot.png HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:23:47] "GET /static/files/smallcircle.png HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:23:47] "GET /static/files/bang.png HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:23:47] "GET /static/img/mountains.jpg HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:23:48] "GET /static/files/icon.png HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 22:24:51] "GET / HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 22:24:52] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:24:52] "GET /static/css/grayscale.css HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:24:52] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:24:52] "GET /static/js/jquery.js HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:24:52] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:24:52] "GET /static/js/jquery.easing.min.js HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:24:52] "GET /static/js/grayscale.js HTTP/1.1" 200 -
+35.2.104.24 - - [16/Apr/2016 22:24:52] "GET /static/files/photo.thumbnail.JPG HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:24:52] "GET /static/files/eecshelpscreenshot.png HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:24:52] "GET /static/files/smallcircle.png HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:24:52] "GET /static/files/bang.png HTTP/1.1" 304 -
+35.2.104.24 - - [16/Apr/2016 22:24:52] "GET /static/img/mountains.jpg HTTP/1.1" 304 -
