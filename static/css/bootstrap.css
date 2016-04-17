@@ -3971,6 +3971,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar > .container .navbar-brand,
   .navbar > .container-fluid .navbar-brand {
     margin-left: -15px;
+    color: black;
   }
 }
 .navbar-toggle {
@@ -3993,6 +3994,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   width: 22px;
   height: 2px;
   border-radius: 1px;
+  color: black;
 }
 .navbar-toggle .icon-bar + .icon-bar {
   margin-top: 4px;

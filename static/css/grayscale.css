@@ -78,10 +78,15 @@ a:focus {
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: #000;
+   /*  background-color: #000;
+       color: white;*/
+           background-color: rgba(181, 181, 137, 0.97);
+
+
 }
 
-.navbar-custom .navbar-brand {
+.navbar-custom 
+ {
     font-weight: 700;
 }
 
@@ -92,7 +97,7 @@ a:focus {
 .navbar-custom .navbar-brand .navbar-toggle {
     padding: 4px 6px;
     font-size: 16px;
-    color: #fff;
+    color: #000;
 }
 
 .navbar-custom .navbar-brand .navbar-toggle:focus,
@@ -101,9 +106,10 @@ a:focus {
 }
 
 .navbar-custom a {
-
+    /*GOGO*/
     font-size: 18px;
     color: #000;
+    /*color: white;*/
 }
 
 .navbar-custom .nav li.active {
@@ -126,18 +132,23 @@ a:focus {
 
 @media(min-width:767px) {
     .navbar {
-        padding: 20px 0;
+        /*GOGO*/
+        padding: 5px 0;
         border-bottom: 0;
         letter-spacing: 1px;
         background: 0 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
+        /*color: black;*/
+        
     }
 
     .top-nav-collapse {
         padding: 0;
+        /*GOGO*/
         background-color: rgba(255,255,204,.8);
+        /*background-color: rgba(0,0,0,.8);*/
     }
 
     .navbar-custom.top-nav-collapse {
@@ -156,7 +167,7 @@ a:focus {
 	background: url(../img/mountains.jpg) no-repeat bottom center scroll;
     background-color: #000;
 /*    background-position: center top; */
-    background-position: 50% 7%; 
+    background-position: 50% 0%; 
     -webkit-background-size: cover;
     -webkit-mask-image:-webkit-gradient(linear, left center, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
 
