@@ -4,15 +4,52 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-@media(min-width:767px) {
+@media(min-width:1000px) {
     .aboutMe-side {
         float: right; 
         width: 35%;
     }
+    .aboutMe-list-side{
+        float: left; 
+        width: 35%; 
+        text-align: left; 
+        padding: 0px 0; 
+        line-height: 24px; 
+        font-size: 16px;
+    }
 }
 
-@media(max-width:766px) {
+@media(max-width:999px) {
     .aboutMe-center {
+        text-align:center;
+        align-content: center;
+        align-items: center;
+  justify-content: center;
+    }
+    .aboutMe-list-center{
+        align-items: center;
+         justify-content: center;
+        align-content: center;
+        float: left; 
+        width: 35%; 
+        text-align: left; 
+        padding: 0 25px; 
+        line-height: 24px; 
+        font-size: 16px;
+    }
+}
+
+@media(min-width:1000px) {
+    .projects-left-side {
+        float: left;text-align: left; width: 45%; padding: 10px 0; font-size: 18;
+    }
+        .projects-right-side {
+        float: right;text-align: left; width: 45%; padding: 10px 0; font-size: 18;
+    }
+}
+@media(max-width:999px) {
+    .projects-center {
+        align-content: center;
     }
 }
     
