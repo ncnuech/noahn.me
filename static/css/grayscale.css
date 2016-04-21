@@ -4,6 +4,18 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+@media(min-width:767px) {
+    .aboutMe-side {
+        float: right; 
+        width: 35%;
+    }
+}
+
+@media(max-width:766px) {
+    .aboutMe-center {
+    }
+}
+    
 body {
     width: 100%;
     height: 100%;
