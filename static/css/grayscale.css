@@ -17,14 +17,18 @@
         line-height: 24px; 
         font-size: 16px;
     }
+        .aboutMe-list-side2{
+
+        text-align: left; padding: 0 0; line-height: 24px; font-size: 16px; 
+    }
 }
 
-@media(max-width:999px) {
+@media(max-width:1000px) {
     .aboutMe-center {
         text-align:center;
         align-content: center;
         align-items: center;
-  justify-content: center;
+        justify-content: center;
     }
     .aboutMe-list-center{
         align-items: center;
@@ -36,6 +40,34 @@
         padding: 0 25px; 
         line-height: 24px; 
         font-size: 16px;
+    }
+      .aboutMe-list-center-side2{
+
+        text-align: left; padding: 0 0; line-height: 24px; font-size: 16px; 
+    }
+}
+@media(max-width:499px) {
+    .aboutMe-center-small {
+        text-align:center;
+        align-content: center;
+        align-items: center;
+        font-size: 12px;
+        justify-content: center;
+    }
+    .aboutMe-list-center-small{
+        align-items: center;
+         justify-content: center;
+        align-content: center;
+        float: left; 
+        width: 35%; 
+        text-align: left; 
+        padding: 0 25px; 
+        line-height: 24px; 
+        font-size: 12px;
+    }
+    .aboutMe-center-small-list-side2{
+
+        text-align: left; padding: 0 0; line-height: 24px; font-size: 12px; 
     }
 }
 
