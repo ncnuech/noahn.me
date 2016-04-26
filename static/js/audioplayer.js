@@ -24,11 +24,12 @@
     
     var makeSongList = function () {
         $.ajax({
-            type: "POST",
-            url: "/hello",
-            data: { param: "hello" }
+            type: "GET",
+            url: "/returnPlaylist",
+            data: {}
         }).done(function (o) {
             // do something
+		console.log(o);
         });
     }
     makeSongList();
