@@ -23,7 +23,14 @@ def playlistnew_route():
 @main.route('/returnPlaylist')
 def return_playlist():
 	songlist = []
+	artistlist = []
+	filelist = []
 	songlist.append("Was A Time")
-	songlist.append("Wildfire")
-	return json.jsonify(songlist=songlist)
+	artistlist.append("Anthony D'Amato")
+	filelist.append("wasatime.mp3")
+	songlist.append("The Things I Regret")
+	artistlist.append("Brandi Carlile")
+	filelist.append("TheThingsIRegret.mp3")
+
+	return json.jsonify(songlist=zip(songlist,artistlist,filelist))
 

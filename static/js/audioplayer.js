@@ -1,6 +1,6 @@
 ﻿window.onload = function () {
 
-
+	var songlist = []
 
     var s = Snap("#svg"); // This will use an existing svg element (not a div)
 
@@ -28,11 +28,40 @@
             url: "/returnPlaylist",
             data: {}
         }).done(function (o) {
-            // do something
-		console.log(o);
+		var index = 0;
+		for(var i = 0;i < o.songlist.length;i++){
+			var obj = o.songlist[i];
+			songlist[i] = {name: obj[0],artist: obj[1],file:obj[2]};
+		}
+		drawSongList();
         });
     }
-    makeSongList();
+	makeSongList();
+	var drawSongList = function(){
+		for(var i = 0;i < songlist.length;i++) {
+			var song = songlist[i];
+			var songRect = s.rect(25,150 + i*30,370,30);
+			var songText = s.text(35,150+i*30+25,(i+1) + ".  "  + songlist[i].name);
+			songRect.node.playId = i;
+			songText.attr({fill: '#4CDCF5'});
+			songText.node.playId = i;
+			var songGroup = s.group(songRect,songText);
+			
+			songGroup.click(clickSongBox);
+			
+		}
+	}
+
+	var clickSongBox = function(event){
+		var obj = Snap(event.target).node;	
+		var index = obj.playId;
+		var audioBlock = document.getElementById('peaks-audio');		
+		var sourceBlock = document.getElementById('audio-source');
+		console.log(sourceBlock);
+		sourceBlock.src = "../static/files/music/" + songlist[index].file;
+		audioBlock.load()
+		//audioBlock.play();
+	}	
 }
 
 $('#idj-play-button').click(function () {
