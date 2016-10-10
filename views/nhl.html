@@ -1,0 +1,394 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Website for home NHL Score Ticker Application">
+    <meta name="author" content="Noah Nuechterlein">
+
+    <title>NHL Score Ticker</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap-switch-master/dist/css/bootstrap3/bootstrap-switch.css" rel="stylesheet">
+
+    <link rel="icon" type="image/x-icon" href="static/img/playericon2.png"/>
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/creative.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">NHL Scores</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#scores">Live Scoreboard</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#subscription">Manage Subscriptions</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1 id="homeHeading">NHL Score Ticker</h1>
+                <hr>
+                <p>Scores in your living room</p>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="no-padding bg-primary" id="about">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2 text-center">
+                            <div>&nbsp;</div>
+                            <div>&nbsp;</div>
+                            <div>&nbsp;</div>
+                            <h2 class="section-heading">What have we developed?</h2>
+                            <hr class="light">
+                            <p class="text-faded">The NHL Score ticker is an in home led light board application printing live hockey scores from around the league. We are also offering SMS notifications for score updates as soon as we receive the updated scores. In the future, look forward to players of the day and week as well as weekly fantasy summaries.</p>
+                            <div>&nbsp;</div>
+                            <div>&nbsp;</div>
+                            <div>&nbsp;</div>
+
+                        </div>
+
+                    </div>
+                </div>
+                    <div class="row no-gutter popup-gallery">
+                        <div class="col-lg-4 col-sm-6">
+                            <a href="img/portfolio/fullsize/sbi1.jpg" class="portfolio-box">
+                                <img src="img/portfolio/thumbnails/sbi1.jpg" class="img-responsive" alt="">
+                                <div class="portfolio-box-caption">
+                                    <div class="portfolio-box-caption-content">
+                                        <div class="project-name">
+                                            Expand
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                            <a href="img/portfolio/fullsize/sbi3.jpg" class="portfolio-box">
+                                <img src="img/portfolio/thumbnails/sbi3.jpg" class="img-responsive" alt="">
+                                <div class="portfolio-box-caption">
+                                    <div class="portfolio-box-caption-content">
+                                        <div class="project-name">
+                                            Expand
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                            <a href="img/portfolio/fullsize/sbg2.gif" class="portfolio-box">
+                                <img src="img/portfolio/thumbnails/sbg2.gif" class="img-responsive" alt="">
+                                <div class="portfolio-box-caption">
+                                    <div class="portfolio-box-caption-content">
+                                        <div class="project-name">
+                                            Expand
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                            <a href="img/portfolio/fullsize/sbg1.gif" class="portfolio-box">
+                                <img src="img/portfolio/thumbnails/sbg1.gif" class="img-responsive" alt="">
+                                <div class="portfolio-box-caption">
+                                    <div class="portfolio-box-caption-content">
+                                        <div class="project-name">
+                                            Expand
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                            <a href="img/portfolio/fullsize/sbi4.jpg" class="portfolio-box">
+                                <img src="img/portfolio/thumbnails/sbi4.jpg" class="img-responsive" alt="">
+                                <div class="portfolio-box-caption">
+                                    <div class="portfolio-box-caption-content">
+                                        <div class="project-name">
+                                            Expand
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                            <a href="img/portfolio/fullsize/sbi2.jpg" class="portfolio-box">
+                                <img src="img/portfolio/thumbnails/sbi2.jpg" class="img-responsive" alt="">
+                                <div class="portfolio-box-caption">
+                                    <div class="portfolio-box-caption-content">
+                                        <div class="project-name">
+                                            Expand
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+</section>
+    <section id="scores">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Live Scoreboard</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div>&nbsp;</div>
+
+            </div>
+        </div>
+    </section>
+        <section class="no-padding bg-dark" id="subscription">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="row">
+
+                        <h2>Create/Manage Subscription</h2>
+                        <form>
+                            <div class="form-group">
+                                <label for="email">Phone #:</label>
+                                <input type="tel" class="form-control" id="telaphone" placeholder="Enter Phone #">
+                                <div class="collapse" id="collapseExample">
+                                    <div>&nbsp;</div>
+                                    <label>Your Name:</label>
+                                    <input type="text" class="form-control" id="fullname" placeholder="Enter your name">
+                                    <div>&nbsp;</div>
+
+                                    <div class="btn-group">
+                                        <button type="button" name="subscribeButton" value="1" class="btn btn-primary">Full Subscription</button>
+                                        <button type="button" name="unsubscribeButton" value="0" class="btn btn-primary">Unsubscribe</button>
+                                    </div>
+                                    <div>&nbsp;</div>
+                                    <label>Receive SMS Game Updates? &nbsp;&nbsp;  </label>
+                                    <input type="checkbox" class="innerCheckbox" data-toggle="collapse" data-target="#collapseExampleInner" aria-expanded="false" aria-controls="collapseExampleInner" name="my-checkbox" checked>
+                                    <div>&nbsp;</div>
+                                    <div style="padding-left: 50px">
+                                    <div class="collapse" id="collapseExampleInner">
+                                        <div class="dropdown">
+                                            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                                                Days of the week
+                                                <span class="caret"></span>
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="">Every Day</a></li>
+                                                <li><a href="">Weekdays</a></li>
+                                                <li><a href="">Weekends</a></li>
+                                                <li><a href="">Mondays</a></li>
+                                                <li><a href="">Tuesdays</a></li>
+                                                <li><a href="">Wednesdays</a></li>
+                                                <li><a href="">Thursdays</a></li>
+                                                <li><a href="">Fridays</a></li>
+                                                <li><a href="">Saturdays</a></li>
+                                                <li><a href="">Sundays</a></li>
+
+                                            </ul>
+                                        </div>
+                                    <div>&nbsp;</div>
+
+                                    <div class="dropdown">
+                                        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                                            Time of Day Start
+                                            <span class="caret"></span>
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="">Begining of Day</a></li>
+                                            <li><a href="">1 pm</a></li>
+                                            <li><a href="">2 pm</a></li>
+                                            <li><a href="">3 pm</a></li>
+                                            <li><a href="">4 pm</a></li>
+                                            <li><a href="">5 pm</a></li>
+                                            <li><a href="">6 pm</a></li>
+                                            <li><a href="">7 pm</a></li>
+                                            <li><a href="">8 pm</a></li>
+                                            <li><a href="">9 pm</a></li>
+                                        </ul>
+                                    </div>
+                                    <div>&nbsp;</div>
+
+                                    <div class="dropdown">
+                                        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                                            Time of Day End
+                                            <span class="caret"></span>
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="">3 pm</a></li>
+                                            <li><a href="">4 pm</a></li>
+                                            <li><a href="">5 pm</a></li>
+                                            <li><a href="">6 pm</a></li>
+                                            <li><a href="">7 pm</a></li>
+                                            <li><a href="">8 pm</a></li>
+                                            <li><a href="">9 pm</a></li>
+                                            <li><a href="">10 pm</a></li>
+                                            <li><a href="">11 pm</a></li>
+                                            <li><a href="">12 pm</a></li>
+                                            <li><a href="">End of Day</a></li>
+
+                                        </ul>
+                                    </div>
+                                    <div>&nbsp;</div>
+
+                                        </div>
+                                        </div>
+                                    <label>Receive player of the day? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+                                    <input class="innerCheckbox" type="checkbox" name="my-checkbox2" checked>
+                                    <div>&nbsp;</div>
+                                    <label>Receive weekly summary? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </label>
+                                    <input class="innerCheckbox" type="checkbox" name="my-checkbox3" checked>
+                                    <div>&nbsp;</div>
+
+
+                                    </div>
+                                </div>
+
+                            <div class="checkbox">
+                                <label><input type="checkbox"> Remember me</label>
+                            </div>
+                            <div class="collapse" id="collapseChanged">
+                                <h6 style="color:lightgreen">Settings changed!</h6>
+                            </div>
+                        </form>
+                        <button class="btn btn-primary" name="submitButton" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            Submit
+                        </button>
+                        <div>&nbsp;</div>
+                    </div>
+                    </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+                        <h2 class="section-heading">Let's Get In Touch!</h2>
+                        <hr class="primary">
+                        <p>Have suggestions for improvements or new features, let me know.</p>
+                    </div>
+                    <div class="col-lg-4 col-lg-offset-2 text-center">
+                        <i class="fa fa-phone fa-3x sr-contact"></i>
+                        <p>989-698-6724</p>
+                    </div>
+                    <div class="col-lg-4 text-center">
+                        <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+                        <p><a href="mailto:ncnuech@umich.edu">ncnuech@umich.edu</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- jQuery -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap-switch-master/dist/js/bootstrap-switch.js"></script>
+        <!-- Bootstrap Core JavaScript -->
+        <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+        <!-- Plugin JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+        <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+        <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+        <!-- Theme JavaScript -->
+        <script src="js/creative.min.js"></script>
+    <script type="text/javascript">
+
+        window.onload = function () {
+            var subscriptionsOpen = false;
+            var attatchListeners = function () {
+                $("[name='submitButton']").click(subscriptionSubmit);
+                $("[name='subscribeButton']").click(updateNotifications);
+                $("[name='unsubscribeButton']").click(updateNotifications);
+            }
+            var subscriptionSubmit = function (event) {
+                if (subscriptionsOpen){
+                    console.log("print changes to file")
+                }
+                if (subscriptionsOpen) {
+                    subscriptionsOpen = false;
+                }
+                else {
+                    subscriptionsOpen = true;
+                }
+            }
+            var updateNotifications = function (event) {
+                var newValue = parseInt(event.target.value);
+                if (newValue === 1) {
+                    $(".innerCheckbox").each(function () {
+                        if (!$(this).bootstrapSwitch('state')) { //check if is not checked
+                            $(this).bootstrapSwitch('toggleState'); //change the checkbox state
+                        }
+                    });
+                }
+                else {
+                    $(".innerCheckbox").each(function () {
+                        if ($(this).bootstrapSwitch('state')) { //check if is not checked
+                            $(this).bootstrapSwitch('toggleState'); //change the checkbox state
+                        }
+                    });
+                }
+
+            }
+
+            attatchListeners();
+        }
+
+        $("[name='my-checkbox']").bootstrapSwitch();
+        $("[name='my-checkbox2']").bootstrapSwitch();
+        $("[name='my-checkbox3']").bootstrapSwitch();
+
+        $(document).ready(function () {
+            console.log("here");
+        });
+
+    </script>
+</body>
+
+</html>
