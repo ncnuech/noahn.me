@@ -17,11 +17,11 @@
 
     <link rel="icon" type="image/x-icon" href="static/img/playericon2.png"/>
     <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="static/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <!-- Plugin CSS -->
-    <link href="staticvendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <link href="static/vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
     <!-- Theme CSS -->
     <link href="static/css/creative.min.css" rel="stylesheet">
@@ -99,11 +99,11 @@
 
                     </div>
                 </div>
-	<!--
+	
                     <div class="row no-gutter popup-gallery">
                         <div class="col-lg-4 col-sm-6">
                             <a href="static/img/portfolio/fullsize/sbi1.jpg" class="portfolio-box">
-                                <img src="static/img/portfolio/thumbnails/sbi1.jpg" class="img-responsive" alt="">
+                                <img src="static/img/portfolio/fullsize/sbi1.jpg" name="image1" class="img-responsive" alt="">
                                 <div class="portfolio-box-caption">
                                     <div class="portfolio-box-caption-content">
                                         <div class="project-name">
@@ -115,7 +115,7 @@
                         </div>
                         <div class="col-lg-4 col-sm-6">
                             <a href="static/img/portfolio/fullsize/sbi3.jpg" class="portfolio-box">
-                                <img src="static/img/portfolio/thumbnails/sbi3.jpg" class="img-responsive" alt="">
+                                <img src="static/img/portfolio/thumbnails/sbi3.jpg" name="image2" class="img-responsive" alt="">
                                 <div class="portfolio-box-caption">
                                     <div class="portfolio-box-caption-content">
                                         <div class="project-name">
@@ -127,11 +127,11 @@
                         </div>
                         <div class="col-lg-4 col-sm-6">
                             <a href="static/img/portfolio/fullsize/sbg2.gif" class="portfolio-box">
-                                <img src="static/img/portfolio/thumbnails/sbg2.gif" class="img-responsive" alt="">
+                                <img src="static/img/portfolio/thumbnails/sbgi2.gif" name="image3" class="img-responsive" alt="">
                                 <div class="portfolio-box-caption">
                                     <div class="portfolio-box-caption-content">
                                         <div class="project-name">
-                                            Expand
+                                            Play
                                         </div>
                                     </div>
                                 </div>
@@ -139,11 +139,11 @@
                         </div>
                         <div class="col-lg-4 col-sm-6">
                             <a href="static/img/portfolio/fullsize/sbg1.gif" class="portfolio-box">
-                                <img src="static/img/portfolio/thumbnails/sbg1.gif" class="img-responsive" alt="">
+                                <img src="static/img/portfolio/thumbnails/sbgi1.gif" name="image4" class="img-responsive" alt="">
                                 <div class="portfolio-box-caption">
                                     <div class="portfolio-box-caption-content">
                                         <div class="project-name">
-                                            Expand
+                                            Play
                                         </div>
                                     </div>
                                 </div>
@@ -151,7 +151,7 @@
                         </div>
                         <div class="col-lg-4 col-sm-6">
                             <a href="static/img/portfolio/fullsize/sbi4.jpg" class="portfolio-box">
-                                <img src="static/img/portfolio/thumbnails/sbi4.jpg" class="img-responsive" alt="">
+                                <img src="static/img/portfolio/thumbnails/sbi4.jpg" name="image5" class="img-responsive" alt="">
                                 <div class="portfolio-box-caption">
                                     <div class="portfolio-box-caption-content">
                                         <div class="project-name">
@@ -163,7 +163,7 @@
                         </div>
                         <div class="col-lg-4 col-sm-6">
                             <a href="static/img/portfolio/fullsize/sbi2.jpg" class="portfolio-box">
-                                <img src="static/img/portfolio/thumbnails/sbi2.jpg" class="img-responsive" alt="">
+                                <img src="static/img/portfolio/thumbnails/sbi2.jpg" name="image6"class="img-responsive" alt="">
                                 <div class="portfolio-box-caption">
                                     <div class="portfolio-box-caption-content">
                                         <div class="project-name">
@@ -175,7 +175,6 @@
                         </div>
                     </div>
                 </div>
-	-->
 </section>
     <section id="scores">
         <div class="container">
@@ -202,11 +201,11 @@
                         <form>
                             <div class="form-group">
                                 <label for="email">Phone #:</label>
-                                <input type="tel" class="form-control" id="telaphone" placeholder="Enter Phone #">
+                                <input type="tel" name="phoneInput" class="form-control" id="telaphone" placeholder="Enter Phone #">
                                 <div class="collapse" id="collapseExample">
                                     <div>&nbsp;</div>
                                     <label>Your Name:</label>
-                                    <input type="text" class="form-control" id="fullname" placeholder="Enter your name">
+                                    <input type="text" name="nameInput" class="form-control" id="fullname" placeholder="Enter your name">
                                     <div>&nbsp;</div>
 
                                     <div class="btn-group">
@@ -285,22 +284,18 @@
                                         </div>
                                         </div>
                                     <label>Receive player of the day? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
-                                    <input class="innerCheckbox" type="checkbox" name="my-checkbox2" checked>
+                                    <input class="innerCheckbox" type="checkbox" name="my-checkbox2" disabled="true" unchecked>
                                     <div>&nbsp;</div>
                                     <label>Receive weekly summary? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </label>
-                                    <input class="innerCheckbox" type="checkbox" name="my-checkbox3" checked>
+                                    <input class="innerCheckbox" type="checkbox" name="my-checkbox3" disabled="true" unchecked>
                                     <div>&nbsp;</div>
 
 
                                     </div>
                                 </div>
-
-                            <div class="checkbox">
-                                <label><input type="checkbox"> Remember me</label>
-                            </div>
-                            <div class="collapse" id="collapseChanged">
-                                <h6 style="color:lightgreen">Settings changed!</h6>
-                            </div>
+                          <!--  <div name="successText" class="collapse" id="collapseChanged"> -->
+                                <h6 name="successText" style="color:lightgreen"></h6>
+                          <!--  </div> -->
                         </form>
                         <button class="btn btn-primary" name="submitButton" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                             Submit
@@ -340,8 +335,9 @@
         <script src="static/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
         <!-- Theme JavaScript -->
         <script src="static/js/creative.min.js"></script>
+	<script src="static/js/qwest.min.js"></script>
     <script type="text/javascript">
-
+	
         window.onload = function () {
             var subscriptionsOpen = false;
             var attatchListeners = function () {
@@ -352,12 +348,15 @@
             var subscriptionSubmit = function (event) {
                 if (subscriptionsOpen){
                     console.log("print changes to file")
+			makeAddPostRequest()
                 }
                 if (subscriptionsOpen) {
                     subscriptionsOpen = false;
                 }
                 else {
                     subscriptionsOpen = true;
+			makeAddGetRequest()
+			$("[name='successText']").text("")
                 }
             }
             var updateNotifications = function (event) {
@@ -378,7 +377,61 @@
                 }
 
             }
+	function makeAddPostRequest() {
+  		console.log("in makeAddPostRequest")
+		var _phone = String($("[name='phoneInput']").val())
+		var _name = $("[name='nameInput']").val()
+		console.log(_phone)
+		console.log(_name)
+		var _scoring = $("[name='my-checkbox']").val()
+		if (String(_scoring)==="on"){
+			_scoring = "TRUE"
+		} else {
+			_scoring = "FALSE"
+		}
+		console.log(_scoring)
+		var data = {
+    			'phone': _phone, 
+    			'name': _name,
+			'scoringPlays': _scoring
+  		};
 
+		$.ajax({
+		  type: "POST",
+		  url: '/subscription',
+		  data: data,
+		  success: successFunc,
+		  dataType: "text"
+		});
+		function successFunc(){
+			console.log("success")
+			$("[name='successText']").text("Settings Changed!")
+		}
+	}
+
+        function makeAddGetRequest() {
+                var data = {
+                        'phone': String($("[name='phoneInput']").val())
+	                };
+
+                $.ajax({
+                  url: '/checkSubscription',
+                  data: data,
+                  success: successFunc2,
+                  dataType: "json"
+                });
+                function successFunc2(data){
+                        console.log("get returned")
+                  	$("[name='nameInput']").val(data.name)
+			if ($("[name='my-checkbox']").val() !==  data.update){
+				$("[name='my-checkbox']").bootstrapSwitch('toggleState')
+			}
+                }
+        }
+
+
+ 
+	//	$("[name='image1').attr("src","static/img/portfolio/fullsize/sbi2.jpg");
             attatchListeners();
         }
 
