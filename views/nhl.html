@@ -423,7 +423,16 @@
                 function successFunc2(data){
                         console.log("get returned")
                   	$("[name='nameInput']").val(data.name)
-			if ($("[name='my-checkbox']").val() !==  data.update){
+			console.log(data.update + "    " + $("[name='my-checkbox']").val())
+			value = ""
+			if (String($("[name='my-checkbox']").val()) === "on"){
+				value=1
+			}
+			else {
+				value = 0
+			}
+                        console.log(data.update + "    " + value)
+			if (value !==  data.update){
 				$("[name='my-checkbox']").bootstrapSwitch('toggleState')
 			}
                 }
