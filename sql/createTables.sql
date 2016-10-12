@@ -7,3 +7,8 @@ CREATE TABLE subscription(
 	weekSummary BOOLEAN,
 	PRIMARY KEY (phone)
 );
+CREATE TABLE messages(
+	name varchar(30),
+	message varchar(500),
+	PRIMARY KEY (name)
+);

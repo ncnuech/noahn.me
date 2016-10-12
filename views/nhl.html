@@ -17,7 +17,9 @@
 
     <link rel="icon" type="image/x-icon" href="static/img/playericon2.png"/>
     <!-- Custom Fonts -->
-    <link href="static/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <script src="../static/Snap.svg-0.4.1/dist/snap.svg-min.js"></script>
+
+	<link href="static/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <!-- Plugin CSS -->
@@ -177,14 +179,20 @@
                 </div>
 </section>
     <section id="scores">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
+        <div class="container"> 
+            <div class="row"> 
+                <div class="col-lg-12 text-center"> 
                     <h2 class="section-heading">Live Scoreboard</h2>
-                    <hr class="primary">
+			                    <hr class="primary">
+
+                                    <div>&nbsp;</div>          
                 </div>
-            </div>
-        </div>
+		</div>
+	</div>
+                <div style="display:flex;justify-content:center; margin:0 auto; width:1400px;height:200px;background:#8B4618;" id="svg">
+	                <svg style="margin: 0 auto; width:1380px;height:200px;right:10px;top:10px;" id="svg2"></svg>
+                </div>
+
         <div class="container">
             <div class="row">
                 <div>&nbsp;</div>
@@ -340,7 +348,82 @@
 	
         window.onload = function () {
             var subscriptionsOpen = false;
-            var attatchListeners = function () {
+       	//var s = Snap("#scoreboard-container")   
+//	var s2 = Snap("#svg")
+//	var outerRect = s2.rect(0,0,1200,200);
+//	outerRect.attr('fill','#8B4618');
+	var s = Snap("#svg2")
+	var innerRect = s.rect(0,10,1380,180);	
+	innerRect.attr('fill','#000000')
+	
+	var message="Setting Up Display"
+	var messageLen = message.length
+	
+	//var scrollText = s.text(1400,140,message);
+	
+	var animateText = function (){
+		console.log("hello")
+		//s.remove(scrollText)
+		console.log(message.length)	
+		var scrollText = s.text(1400,140,message);
+		messageLen = message.length
+		scrollText.attr({'stroke':'red','font-size':"100px",'stroke-width':"10px",'font-family':"Arial",'letter-spacing':"5px"})
+		var multiplier = 1
+		if (messageLen > 130){
+			multiplier = .8
+		}else if (messageLen < 60) {
+			multiplier = 1.75
+		}
+		scrollText.animate({ transform:'translate(-' + messageLen*75*multiplier + ',0)'}, messageLen*200*multiplier,"",function(){
+			console.log("recusing")	
+			scrollText.remove()
+			animateText()
+		});
+	}
+	animateText()
+	//var s2 = Snap("#svg")
+        //var outerRect = s2.rect(0,0,1200,200);
+        //outerRect.attr('fill','#8B4618');
+	setInterval(function() {
+
+                $.ajax({
+                  url: '/checkForUpdate',
+                  data: "",
+                  success: successFunc2,
+                  dataType: "text"
+                });
+                function successFunc2(data){
+         
+			if (data.length !== 0){
+				console.log("switching to |" + data +"| as data")
+				
+				message=parseFormattedString(data)             
+                	}
+		}	
+	
+	},5000);
+	var parseFormattedString = function(message) {
+		var count = 0;
+		var counting = false;
+		var newMessage=""
+		console.log("---------------")
+		for (var i = 0, len = message.length; i < len; i++) {
+			if (message[i] == "~"){
+				count = 0;	
+				counting=true;
+			}else if (counting) {
+				count++;
+				if (count >= 8) {
+					counting = false;
+				}
+			}else {
+				newMessage = newMessage + message[i]
+			}
+		}
+		console.log(newMessage)
+		return newMessage
+	}
+	var attatchListeners = function () {
                 $("[name='submitButton']").click(subscriptionSubmit);
                 $("[name='subscribeButton']").click(updateNotifications);
                 $("[name='unsubscribeButton']").click(updateNotifications);
@@ -383,8 +466,11 @@
 		var _name = $("[name='nameInput']").val()
 		console.log(_phone)
 		console.log(_name)
-		var _scoring = $("[name='my-checkbox']").val()
-		if (String(_scoring)==="on"){
+		
+		var _scoring = $("[name='my-checkbox']").is(':checked')
+		console.log("________")	
+		console.log(_scoring)
+		if (_scoring){
 			_scoring = "TRUE"
 		} else {
 			_scoring = "FALSE"

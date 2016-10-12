@@ -5,7 +5,6 @@ from flask import json
 import MySQLdb
 from flask import *
 main = Blueprint('main', __name__, template_folder='views')
-
 @main.route('/hello')
 def main_route():
 	return render_template("index.html")
@@ -26,12 +25,42 @@ def playlistnew_route():
 def nhl_route():
 	return render_template("nhl.html")
 
+@main.route('/getPhoneForActions')
+def getPhoneForActions_route():
+	print("______________________")
+	records = executeAll("SELECT phone FROM subscription WHERE scoringPlays = TRUE;")
+	phoneStr = ""
+	for record in records:
+		print(record)
+		phoneStr+=record[0]+" ";
+	print(phoneStr)
+	if phoneStr != "":
+		phoneStr=phoneStr[:-1]
+	print("_______________________")
+	return phoneStr
+
+@main.route('/getMessage')
+def getMessage_route():
+	print("received message from RPI")
+	message = request.args.get('message')
+	update('UPDATE messages SET message="' + message + '" WHERE name="message";')
+	return 'OK'
+@main.route('/checkForUpdate')
+def checkForUpdate_route():
+	print("returning from checkForUpdate")
+	rval = execute('SELECT message FROM messages WHERE name="message";')
+	print(rval)
+	if rval==None:
+		return ""
+	else:
+		print("returning to JAVASCRIPT")
+		print(rval[0])
+		update('UPDATE messages SET message="" WHERE name="message";')
+		return rval[0]
 
 @main.route('/checkSubscription')
 def checkSubscription_route():
 	phone = request.args.get('phone')
-	print("hello")
-	print(phone)
 	record = execute('Select name,scoringPlays from subscription where phone="'+phone + '";')
 	if record==None:
 		response = json.jsonify(name='',update="TRUE",status=200)
@@ -43,18 +72,18 @@ def checkSubscription_route():
 
 @main.route('/subscription',methods=['POST','GET'])
 def subscription_route():
-	print("hellohere")
 	phone = request.form['phone']
 	#phone = data.get('phone')
 	name = request.form['name']
 	gameUpdates = request.form['scoringPlays']
 	record = execute("select phone from subscription where phone=" + phone)
-	print(record)
+	
+	print("{}{}{}{}{}{}")
+	print(gameUpdates)
 	if record==None:
 		update('insert into subscription values ("'+name+'","'+phone + '",' + gameUpdates+",FALSE,FALSE,FALSE);")
 	else:
-		update('UPDATE subscription SET phone="' + phone + '",name="'+name+'",scoringPlays=' + gameUpdates + ";")
-	print("done")
+		update('UPDATE subscription SET name="'+name+'",scoringPlays=' + gameUpdates + ' WHERE phone="' +phone + '";')
 	return 'OK'
 
 def execute(query):
@@ -65,6 +94,14 @@ def execute(query):
         newrow = cursor.fetchone()
         con.close()
 	return newrow
+def executeAll(query):
+        print("Executing a thing")
+        con = MySQLdb.connect(host="localhost",user="root",passwd="marcopolo",db="hockey")
+        cursor = con.cursor()
+        cursor.execute(query)
+        newrows = cursor.fetchall()
+        con.close()
+        return newrows
 
 def update(query):
 	print("updating a thing")
