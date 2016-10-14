@@ -28,8 +28,12 @@ def nhl_route():
 
 @main.route('/setPlayerOfDay')
 def setPlayerOfDay():
-	message = args.get('message')
-	dateStr = time.strftime("%d%m")
+	message = request.args.get('message')
+	url = request.args.get('url')
+	day = request.args.get('day')
+	print(str(message) + " " + str(url) + " " + str(day))
+	if message != "":
+		update('insert into playerOfDay (day,message,url) values ("'+day+'","'+message + '","' + url+'");')
 	print(message)
 	print(dateStr)
 	return 'OK'
