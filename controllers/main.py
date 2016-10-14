@@ -36,14 +36,14 @@ def setPlayerOfDay():
 
 @main.route('/returnPlayersOfDay')
 def returnPlayersOfDay():
-	records = executeAll("SELECT * FROM playerOfDay;")
+	records = executeAll("SELECT * FROM playerOfDay ORDER BY id DESC LIMIT 7;")
 	print("_______how formed________")
 	players = []
 	for i in range(0,len(records)):
 		print(records[i][0])
 		print(records[i][1])
 		print(records[i][2])
-		players.append({"day":records[i][0],"name":records[i][1],"url":records[i][2]})
+		players.append({"day":records[i][1],"name":records[i][2],"url":records[i][3]})
 		response = json.jsonify(players=players,status=200)
 	return response
 

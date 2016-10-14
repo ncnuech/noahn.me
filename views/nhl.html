@@ -201,17 +201,18 @@
 
             </div>
         </div>
+                <div>&nbsp;</div>                <div>&nbsp;</div>
 		
 	            <div class="row">
                 <div class="col-lg-12">
                     <ul class="timeline">
                         <li>
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/ChIP.png" name="img-1" alt="">
+                                <img class="img-circle img-responsive" src="" name="img-1" alt="">
                             </div>
-                            <div class="timeline-panel" name="timeline-panel-1">
+                            <div class="timeline-panel" >
                                 <div class="timeline-heading">
-                                    <h4>title</h4>
+                                    <h4 name="timeline-panel-1">title</h4>
                                     <h4 class="subheading" name="subheading-1">subtitle</h4>
                                 </div>
                                 <div class="timeline-body">
@@ -221,11 +222,11 @@
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/pg_sno.jpg" name="img-2" alt="">
+                                <img class="img-circle img-responsive" src="" name="img-2" alt="">
                             </div>
-                            <div class="timeline-panel" name="timeline-panel-2">
+                            <div class="timeline-panel" >
                                 <div class="timeline-heading">
-                                    <h4>title</h4>
+                                    <h4 name="timeline-panel-2">title</h4>
                                     <h4 class="subheading" name="subheading-2">subtitle</h4>
                                 </div>
                                 <div class="timeline-body">
@@ -236,11 +237,11 @@
 
                         <li>
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/ChIP.png" name="img-3" alt="">
+                                <img class="img-circle img-responsive" src="" name="img-3" alt="">
                             </div>
-                            <div class="timeline-panel" name="timeline-panel-3">
+                            <div class="timeline-panel" >
                                 <div class="timeline-heading">
-                                    <h4>title</h4>
+                                    <h4 name="timeline-panel-3">title</h4>
                                     <h4 class="subheading" name="subheading-3">subtitle</h4>
                                 </div>
                                 <div class="timeline-body">
@@ -250,11 +251,11 @@
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/pg_sno.jpg" name="img-4" alt="">
+                                <img class="img-circle img-responsive" src="" name="img-4" alt="">
                             </div>
-                            <div class="timeline-panel" name="timeline-panel-4">
+                            <div class="timeline-panel" >
                                 <div class="timeline-heading">
-                                    <h4>title</h4>
+                                    <h4 name="timeline-panel-4">title</h4>
                                     <h4 class="subheading" name="subheading-4">subtitle</h4>
                                 </div>
                                 <div class="timeline-body">
@@ -264,11 +265,11 @@
                         </li>
                         <li>
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/ChIP.png" name="img-5" alt="">
-                            </div
-                            <div class="timeline-panel" name="timeline-panel-5">
+                                <img class="img-circle img-responsive" src="" name="img-5" alt="">
+                            </div>
+                            <div class="timeline-panel" >
                                 <div class="timeline-heading">
-                                    <h4>title</h4>
+                                    <h4 name="timeline-panel-5">title</h4>
                                     <h4 class="subheading" name="subheading-5">subtitle</h4>
                                 </div>
                                 <div class="timeline-body">
@@ -278,11 +279,11 @@
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/pg_sno.jpg" name="img-6" alt="">
+                                <img class="img-circle img-responsive" src="" name="img-6" alt="">
                             </div>
-                            <div class="timeline-panel" name="timeline-panel-6>
+				<div class="timeline-panel" >
                                 <div class="timeline-heading">
-                                    <h4>title</h4>
+                                    <h4 name="timeline-panel-6">title</h4>
                                     <h4 class="subheading" name="subheading-6">subtitle</h4>
                                 </div>
                                 <div class="timeline-body">
@@ -290,13 +291,13 @@
                                 </div>
                             </div>
                         </li>
-						<li>
+			<li>
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/ChIP.png" name="img-7" alt="">
+                                <img class="img-circle img-responsive" src="" name="img-7" alt="">
                             </div>
-                            <div class="timeline-panel" name="timeline-panel-7">
+                            <div class="timeline-panel" >
                                 <div class="timeline-heading">
-                                    <h4>title</h4>
+                                    <h4 name="timeline-panel-7">title</h4>
                                     <h4 class="subheading" name="subheading-7">subtitle</h4>
                                 </div>
                                 <div class="timeline-body">
@@ -457,10 +458,6 @@
 	
         window.onload = function () {
             var subscriptionsOpen = false;
-       	//var s = Snap("#scoreboard-container")   
-//	var s2 = Snap("#svg")
-//	var outerRect = s2.rect(0,0,1200,200);
-//	outerRect.attr('fill','#8B4618');
 	var s = Snap("#svg2")
 	var innerRect = s.rect(0,10,1380,180);	
 	innerRect.attr('fill','#000000')
@@ -471,9 +468,9 @@
 	//var scrollText = s.text(1400,140,message);
 	
 	var animateText = function (){
-		console.log("hello")
-		//s.remove(scrollText)
-		console.log(message.length)	
+		
+		
+			
 		var scrollText = s.text(1400,140,message);
 		messageLen = message.length
 		scrollText.attr({'stroke':'red','font-size':"100px",'stroke-width':"10px",'font-family':"Arial",'letter-spacing':"5px"})
@@ -484,7 +481,7 @@
 			multiplier = 1.75
 		}
 		scrollText.animate({ transform:'translate(-' + messageLen*75*multiplier + ',0)'}, messageLen*200*multiplier,"",function(){
-			console.log("recusing")	
+			
 			scrollText.remove()
 			animateText()
 		});
@@ -495,21 +492,28 @@
                   url: '/returnPlayersOfDay',
                   data: "",
                   success: successFunc3,
-                  dataType: "text"
+                  dataType: "json"
                 });
                 function successFunc3(data){
 
                         if (data.length !== 0){
-                               console.log(data)
-                        }
+				for (i = 0;i < data.players.length;i++){
+                               		var timelineStr = "timeline-panel-" + String(i+1)
+					var textStr = "text-muted-" + String(i+1)
+					var subheadingStr = "subheading-" + String(i+1)
+					var imgStr = "img-" + String(i+1)
+					$("[name='" + timelineStr + "']").text(data.players[i].day)
+                        		$("[name='" + textStr + "']").text(data.players[i].name)
+					$("[name='" + subheadingStr + "']").text(" ")
+					$("[name='" + imgStr + "']").attr('src',data.players[i].url)				
+				}
+			}
                 }
 
 	}
 	getPlayersOfDay()
 	animateText()
-	//var s2 = Snap("#svg")
-        //var outerRect = s2.rect(0,0,1200,200);
-        //outerRect.attr('fill','#8B4618');
+        
 	setInterval(function() {
 
                 $.ajax({
@@ -521,8 +525,6 @@
                 function successFunc2(data){
          
 			if (data.length !== 0){
-				console.log("switching to |" + data +"| as data")
-				
 				message=parseFormattedString(data)             
                 	}
 		}	
@@ -532,7 +534,7 @@
 		var count = 0;
 		var counting = false;
 		var newMessage=""
-		console.log("---------------")
+		
 		for (var i = 0, len = message.length; i < len; i++) {
 			if (message[i] == "~"){
 				count = 0;	
@@ -546,7 +548,7 @@
 				newMessage = newMessage + message[i]
 			}
 		}
-		console.log(newMessage)
+		
 		return newMessage
 	}
 	var attatchListeners = function () {
@@ -556,8 +558,7 @@
             }
             var subscriptionSubmit = function (event) {
                 if (subscriptionsOpen){
-                    console.log("print changes to file")
-			makeAddPostRequest()
+                   makeAddPostRequest()
                 }
                 if (subscriptionsOpen) {
                     subscriptionsOpen = false;
@@ -587,21 +588,21 @@
 
             }
 	function makeAddPostRequest() {
-  		console.log("in makeAddPostRequest")
+  		
 		var _phone = String($("[name='phoneInput']").val())
 		var _name = $("[name='nameInput']").val()
-		console.log(_phone)
-		console.log(_name)
+		
+		
 		
 		var _scoring = $("[name='my-checkbox']").is(':checked')
-		console.log("________")	
-		console.log(_scoring)
+			
+		
 		if (_scoring){
 			_scoring = "TRUE"
 		} else {
 			_scoring = "FALSE"
 		}
-		console.log(_scoring)
+		
 		var data = {
     			'phone': _phone, 
     			'name': _name,
@@ -616,7 +617,7 @@
 		  dataType: "text"
 		});
 		function successFunc(){
-			console.log("success")
+		
 			$("[name='successText']").text("Settings Changed!")
 		}
 	}
@@ -633,9 +634,9 @@
                   dataType: "json"
                 });
                 function successFunc2(data){
-                        console.log("get returned")
+                        
                   	$("[name='nameInput']").val(data.name)
-			console.log(data.update + "    " + $("[name='my-checkbox']").val())
+			
 			value = ""
 			if (String($("[name='my-checkbox']").val()) === "on"){
 				value=1
@@ -643,7 +644,7 @@
 			else {
 				value = 0
 			}
-                        console.log(data.update + "    " + value)
+                        
 			if (value !==  data.update){
 				$("[name='my-checkbox']").bootstrapSwitch('toggleState')
 			}
@@ -661,7 +662,7 @@
         $("[name='my-checkbox3']").bootstrapSwitch();
 
         $(document).ready(function () {
-            console.log("here");
+  
         });
 
     </script>

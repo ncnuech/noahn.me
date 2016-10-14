@@ -13,8 +13,9 @@ CREATE TABLE messages(
 	PRIMARY KEY (name)
 );
 CREATE TABLE playerOfDay(
+	id INT not null auto_increment,
 	day varchar(30),
 	message varchar(500),
 	url varchar(500),
-	PRIMARY KEY(day)
+	PRIMARY KEY(id)
 );

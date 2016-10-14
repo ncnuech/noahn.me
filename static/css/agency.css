@@ -3,7 +3,7 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
-
+/*
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -426,7 +426,7 @@ section h3.section-subheading {
         margin: 0 0 30px;
     }
 }
-
+*/
 .timeline {
     position: relative;
     padding: 0;
@@ -494,6 +494,7 @@ section h3.section-subheading {
     text-align: center;
     color: #fff;
     background-color: #fed136;
+	background: linear-gradient(to bottom,rgba(0,0,0,0), rgba(0,0,0,1))
 }
 
 .timeline>li .timeline-image h4 {
@@ -593,7 +594,7 @@ section h3.section-subheading {
     }
 
     .timeline>li .timeline-image h4 {
-        margin-top: 30px;
+        margin-top: 50px;
         font-size: 18px;
         line-height: 26px;
     }
@@ -619,14 +620,14 @@ section h3.section-subheading {
     }
 
     .timeline>li .timeline-image h4 {
-        margin-top: 40px;
+        margin-top: 60px;
     }
 
     .timeline>li.timeline-inverted>.timeline-panel {
         padding: 0 100px 20px 20px;
     }
 }
-
+/*
 .team-member {
     margin-bottom: 50px;
     text-align: center;
@@ -865,3 +866,4 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #fed136;
 }
+*/
