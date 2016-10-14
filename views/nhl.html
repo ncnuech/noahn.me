@@ -380,6 +380,23 @@
 			animateText()
 		});
 	}
+	
+	var getPlayersOfDay = function() {
+		$.ajax({
+                  url: '/returnPlayersOfDay',
+                  data: "",
+                  success: successFunc3,
+                  dataType: "text"
+                });
+                function successFunc3(data){
+
+                        if (data.length !== 0){
+                               console.log(data)
+                        }
+                }
+
+	}
+	getPlayersOfDay()
 	animateText()
 	//var s2 = Snap("#svg")
         //var outerRect = s2.rect(0,0,1200,200);
@@ -401,7 +418,7 @@
                 	}
 		}	
 	
-	},5000);
+	},10000);
 	var parseFormattedString = function(message) {
 		var count = 0;
 		var counting = false;

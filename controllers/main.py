@@ -4,6 +4,7 @@ from flask import Blueprint, render_template
 from flask import json
 import MySQLdb
 from flask import *
+import time
 main = Blueprint('main', __name__, template_folder='views')
 @main.route('/hello')
 def main_route():
@@ -24,6 +25,27 @@ def playlistnew_route():
 @main.route('/nhl')
 def nhl_route():
 	return render_template("nhl.html")
+
+@main.route('/setPlayerOfDay')
+def setPlayerOfDay():
+	message = args.get('message')
+	dateStr = time.strftime("%d%m")
+	print(message)
+	print(dateStr)
+	return 'OK'
+
+@main.route('/returnPlayersOfDay')
+def returnPlayersOfDay():
+	records = executeAll("SELECT * FROM playerOfDay;")
+	print("_______how formed________")
+	players = []
+	for i in range(0,len(records)):
+		print(records[i][0])
+		print(records[i][1])
+		print(records[i][2])
+		players.append({"day":records[i][0],"name":records[i][1],"url":records[i][2]})
+		response = json.jsonify(players=players,status=200)
+	return response
 
 @main.route('/getPhoneForActions')
 def getPhoneForActions_route():
@@ -55,7 +77,7 @@ def checkForUpdate_route():
 	else:
 		print("returning to JAVASCRIPT")
 		print(rval[0])
-		update('UPDATE messages SET message="" WHERE name="message";')
+		#update('UPDATE messages SET message="" WHERE name="message";')
 		return rval[0]
 
 @main.route('/checkSubscription')

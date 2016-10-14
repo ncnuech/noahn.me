@@ -12,3 +12,9 @@ CREATE TABLE messages(
 	message varchar(500),
 	PRIMARY KEY (name)
 );
+CREATE TABLE playerOfDay(
+	day varchar(30),
+	message varchar(500),
+	url varchar(500),
+	PRIMARY KEY(day)
+);
