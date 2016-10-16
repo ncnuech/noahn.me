@@ -31,30 +31,39 @@ def setPlayerOfDay():
 	message = request.args.get('message')
 	url = request.args.get('url')
 	day = request.args.get('day')
-	print(str(message) + " " + str(url) + " " + str(day))
+	#print(str(message) + " " + str(url) + " " + str(day))
 	if message != "":
 		update('insert into playerOfDay (day,message,url) values ("'+day+'","'+message + '","' + url+'");')
-	print(message)
-	print(dateStr)
+	#print(message)
+	#print(dateStr)
 	return 'OK'
 
 @main.route('/returnPlayersOfDay')
 def returnPlayersOfDay():
 	records = executeAll("SELECT * FROM playerOfDay ORDER BY id DESC LIMIT 7;")
-	print("_______how formed________")
+	#print("_______how formed________")
 	players = []
 	for i in range(0,len(records)):
-		print(records[i][0])
-		print(records[i][1])
-		print(records[i][2])
+	#	print(records[i][0])
+	#	print(records[i][1])
+	#	print(records[i][2])
 		players.append({"day":records[i][1],"name":records[i][2],"url":records[i][3]})
 		response = json.jsonify(players=players,status=200)
 	return response
 
 @main.route('/getPhoneForActions')
 def getPhoneForActions_route():
+	subtype=request.args.get('type')
+	if subtype=="action":
+		subtype="scoringPlays"
+	elif subtype=="playerOfDay":
+		subtype="playerOfDay"
+	elif subtype=="playerOfWeek":
+		subtype="playerOfWeek"
+	elif subtype=="weekSummary":
+		subtype="weekSummary"
 	print("______________________")
-	records = executeAll("SELECT phone FROM subscription WHERE scoringPlays = TRUE;")
+	records = executeAll("SELECT phone FROM subscription WHERE " + subtype + " = TRUE;")
 	phoneStr = ""
 	for record in records:
 		print(record)
@@ -65,22 +74,24 @@ def getPhoneForActions_route():
 	print("_______________________")
 	return phoneStr
 
+
+
 @main.route('/getMessage')
 def getMessage_route():
-	print("received message from RPI")
+	#print("received message from RPI")
 	message = request.args.get('message')
 	update('UPDATE messages SET message="' + message + '" WHERE name="message";')
 	return 'OK'
 @main.route('/checkForUpdate')
 def checkForUpdate_route():
-	print("returning from checkForUpdate")
+	#print("returning from checkForUpdate")
 	rval = execute('SELECT message FROM messages WHERE name="message";')
-	print(rval)
+	#print(rval)
 	if rval==None:
 		return ""
 	else:
-		print("returning to JAVASCRIPT")
-		print(rval[0])
+	#	print("returning to JAVASCRIPT")
+	#	print(rval[0])
 		#update('UPDATE messages SET message="" WHERE name="message";')
 		return rval[0]
 
@@ -102,14 +113,15 @@ def subscription_route():
 	#phone = data.get('phone')
 	name = request.form['name']
 	gameUpdates = request.form['scoringPlays']
+	playerOfDay = request.form['playerOfDay']
 	record = execute("select phone from subscription where phone=" + phone)
-	
-	print("{}{}{}{}{}{}")
-	print(gameUpdates)
+		
+	print("{}{}{________________}{}{}{}")
+	print(playerOfDay)
 	if record==None:
-		update('insert into subscription values ("'+name+'","'+phone + '",' + gameUpdates+",FALSE,FALSE,FALSE);")
+		update('insert into subscription values ("'+name+'","'+phone + '",' + gameUpdates+"," + playerOfDay + ",FALSE,FALSE);")
 	else:
-		update('UPDATE subscription SET name="'+name+'",scoringPlays=' + gameUpdates + ' WHERE phone="' +phone + '";')
+		update('UPDATE subscription SET name="'+name+'",scoringPlays=' + gameUpdates + ',playerOfDay=' + playerOfDay + ' WHERE phone="' +phone + '";')
 	return 'OK'
 
 def execute(query):

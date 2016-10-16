@@ -28,7 +28,7 @@
     <!-- Theme CSS -->
 	<link href="static/css/agency.css" rel="stylesheet">
 
-    <link href="static/css/creative.min.css" rel="stylesheet">
+    <link href="static/css/creative.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -60,6 +60,10 @@
                     <li>
                         <a class="page-scroll" href="#scores">Live Scoreboard</a>
                     </li>
+                    <li>
+                        <a class="page-scroll" href="#playersofday">Players Of The Day</a>
+                    </li>
+
                     <li>
                         <a class="page-scroll" href="#subscription">Manage Subscriptions</a>
                     </li>
@@ -180,7 +184,7 @@
                     </div>
                 </div>
 </section>
-    <section id="scores">
+    <section id="scores" class="">
         <div class="container"> 
             <div class="row"> 
                 <div class="col-lg-12 text-center"> 
@@ -201,10 +205,13 @@
 
             </div>
         </div>
-                <div>&nbsp;</div>                <div>&nbsp;</div>
-		
+               
+</section>
+<section class="bg-third" id="playersofday">		
 	            <div class="row">
-                <div class="col-lg-12">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Players Of The Day</h2>
+                                            <hr class="primary">
                     <ul class="timeline">
                         <li>
                             <div class="timeline-image">
@@ -216,7 +223,7 @@
                                     <h4 class="subheading" name="subheading-1">subtitle</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted" name="text-muted-1">text muted</p>
+                                    <p class="subheading" name="text-muted-1">text muted</p>
                                 </div>
                             </div>
                         </li>
@@ -230,7 +237,7 @@
                                     <h4 class="subheading" name="subheading-2">subtitle</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted" name="text-muted-2">text muted</p>
+                                    <p class="subheading" name="text-muted-2">text muted</p>
                                 </div>
                             </div>
                         </li>
@@ -245,7 +252,7 @@
                                     <h4 class="subheading" name="subheading-3">subtitle</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted" name="text-muted-3">text muted</p>
+                                    <p class="subheading" name="text-muted-3">text muted</p>
                                 </div>
                             </div>
                         </li>
@@ -259,7 +266,7 @@
                                     <h4 class="subheading" name="subheading-4">subtitle</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted" name="text-muted-4">text muted</p>
+                                    <p class="subheading" name="text-muted-4">text muted</p>
                                 </div>
                             </div>
                         </li>
@@ -273,7 +280,7 @@
                                     <h4 class="subheading" name="subheading-5">subtitle</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted" name="text-muted-5">text muted</p>
+                                    <p class="subheading" name="text-muted-5">text muted</p>
                                 </div>
                             </div>
                         </li>
@@ -286,8 +293,8 @@
                                     <h4 name="timeline-panel-6">title</h4>
                                     <h4 class="subheading" name="subheading-6">subtitle</h4>
                                 </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted" name="text-muted-6">text muted</p>
+                                <div class="timeline-boy">
+                                    <p class="subheading" name="text-muted-6">text muted</p>
                                 </div>
                             </div>
                         </li>
@@ -301,7 +308,7 @@
                                     <h4 class="subheading" name="subheading-7">subtitle</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted" name="text-muted-7">text muted</p>
+                                    <p class="subheading" name="text-muted-7">text muted</p>
                                 </div>
                             </div>
                         </li>
@@ -402,7 +409,7 @@
                                         </div>
                                         </div>
                                     <label>Receive player of the day? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
-                                    <input class="innerCheckbox" type="checkbox" name="my-checkbox2" disabled="true" unchecked>
+                                    <input class="innerCheckbox" type="checkbox" name="my-checkbox2" unchecked>
                                     <div>&nbsp;</div>
                                     <label>Receive weekly summary? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </label>
                                     <input class="innerCheckbox" type="checkbox" name="my-checkbox3" disabled="true" unchecked>
@@ -595,19 +602,25 @@
 		
 		
 		var _scoring = $("[name='my-checkbox']").is(':checked')
-			
+		var _playerOfDay = $("[name='my-checkbox2']").is(':checked')	
 		
 		if (_scoring){
 			_scoring = "TRUE"
 		} else {
 			_scoring = "FALSE"
 		}
+		if (_playerOfDay) {
+			_playerOfDay = "TRUE"
+		} else {
+			_playerOfDay = "FALSE"
+		}
 		
 		var data = {
     			'phone': _phone, 
     			'name': _name,
-			'scoringPlays': _scoring
-  		};
+			'scoringPlays': _scoring,
+  			'playerOfDay': _playerOfDay
+		};
 
 		$.ajax({
 		  type: "POST",
