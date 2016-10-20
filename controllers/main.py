@@ -26,14 +26,38 @@ def playlistnew_route():
 def nhl_route():
 	return render_template("nhl.html")
 
+
+@main.route('/setCurPlayerOfDay')
+def setCurPlayerOfDay():
+	nameList = request.args.get('message').split('_')
+	urlList = request.args.get('url').split('_')
+	print(request.args.get('url'))
+	print(urlList)
+	print(nameList)
+        day = request.args.get('day')
+        statsList = request.args.get('stats').split('_')
+        #print(str(message) + " " + str(url) + " " + str(day))
+        for i in range(len(nameList)):
+		print(nameList[i])
+		print(urlList[i])
+		print(statsList[i])
+		update("update curPlayerOfDay set day='"+day + "',name='"+nameList[i]+"',url='"+urlList[i]+"',stats='"+statsList[i]+"' where id = " + str(i+1) + ";")
+                #update('insert into playerOfDay (day,message,url,stats) values ("'+day+'","'+message + '","' + url+'","' + stats + '");')
+        #print(message)
+        #print(dateStr)
+        return 'OK'
+
+
 @main.route('/setPlayerOfDay')
 def setPlayerOfDay():
 	message = request.args.get('message')
 	url = request.args.get('url')
 	day = request.args.get('day')
+	stats = request.args.get('stats')
 	#print(str(message) + " " + str(url) + " " + str(day))
 	if message != "":
-		update('insert into playerOfDay (day,message,url) values ("'+day+'","'+message + '","' + url+'");')
+		print(stats)
+		update('insert into playerOfDay (day,message,url,stats) values ("'+day+'","'+message + '","' + url+'","' + stats + '");')
 	#print(message)
 	#print(dateStr)
 	return 'OK'

@@ -17,5 +17,15 @@ CREATE TABLE playerOfDay(
 	day varchar(30),
 	message varchar(500),
 	url varchar(500),
+	stats varchar(500),
+	PRIMARY KEY(id)
+);
+
+CREATE TABLE curPlayerOfDay(
+	id INT,
+	day varchar(30),
+	name varchar(500),
+	url varchar(500),
+	stats varchar(500),
 	PRIMARY KEY(id)
 );
