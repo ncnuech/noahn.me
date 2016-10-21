@@ -26,22 +26,29 @@ def playlistnew_route():
 def nhl_route():
 	return render_template("nhl.html")
 
+@main.route('/getCurPlayerOfDay')
+def getCurPlayerOfDay():
+	records = executeAll("SELECT * FROM curPlayerOfDay ORDER BY id LIMIT 3;")
+        #print("_______how formed________")
+        players = []
+        for i in range(0,len(records)):
+        #       print(records[i][0])
+        #       print(records[i][1])
+        #       print(records[i][2])
+                players.append({"day":records[i][1],"name":records[i][2],"url":records[i][3],"stats":records[i][4],"teamPic":records[i][5]})
+                response = json.jsonify(players=players,status=200)
+        return response
 
 @main.route('/setCurPlayerOfDay')
 def setCurPlayerOfDay():
 	nameList = request.args.get('message').split('_')
 	urlList = request.args.get('url').split('_')
-	print(request.args.get('url'))
-	print(urlList)
-	print(nameList)
         day = request.args.get('day')
         statsList = request.args.get('stats').split('_')
+	teamPicList = request.args.get('teamPic').split('_')
         #print(str(message) + " " + str(url) + " " + str(day))
         for i in range(len(nameList)):
-		print(nameList[i])
-		print(urlList[i])
-		print(statsList[i])
-		update("update curPlayerOfDay set day='"+day + "',name='"+nameList[i]+"',url='"+urlList[i]+"',stats='"+statsList[i]+"' where id = " + str(i+1) + ";")
+		update("update curPlayerOfDay set day='"+day + "',name='"+nameList[i]+"',url='"+urlList[i]+"',stats='"+statsList[i]+"',teamPic='" + teamPicList[i] + "' where id = " + str(i+1) + ";")
                 #update('insert into playerOfDay (day,message,url,stats) values ("'+day+'","'+message + '","' + url+'","' + stats + '");')
         #print(message)
         #print(dateStr)
@@ -71,7 +78,7 @@ def returnPlayersOfDay():
 	#	print(records[i][0])
 	#	print(records[i][1])
 	#	print(records[i][2])
-		players.append({"day":records[i][1],"name":records[i][2],"url":records[i][3]})
+		players.append({"day":records[i][1],"name":records[i][2],"url":records[i][3],"stats":records[i][4]})
 		response = json.jsonify(players=players,status=200)
 	return response
 

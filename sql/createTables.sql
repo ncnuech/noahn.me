@@ -27,5 +27,6 @@ CREATE TABLE curPlayerOfDay(
 	name varchar(500),
 	url varchar(500),
 	stats varchar(500),
+	teamPic varchar(500),
 	PRIMARY KEY(id)
 );

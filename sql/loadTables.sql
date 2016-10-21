@@ -11,7 +11,7 @@ insert into playerOfDay (day,message,url,stats) values("Friday October 14th","Le
 insert into playerOfDay (day,message,url,stats) values("Saturday October 15th","Ryan Miller","http://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/1549.png","");
 insert into playerOfDay (day,message,url,stats) values("Sunday October 16th","Ryan O'Reilly","http://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/5208.png","");
 
- insert into curPlayerOfDay Values(1,"","","","");
- insert into curPlayerOfDay Values(2,"","","","");
- insert into curPlayerOfDay Values(3,"","","","");
- insert into curPlayerOfDay Values(4,"","","","");
+ insert into curPlayerOfDay Values(1,"","","","","");
+ insert into curPlayerOfDay Values(2,"","","","","");
+ insert into curPlayerOfDay Values(3,"","","","","");
+ insert into curPlayerOfDay Values(4,"","","","","");
