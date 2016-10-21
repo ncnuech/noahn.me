@@ -2248,7 +2248,7 @@ input[type=range] {
 }
 
 .primary-color {
-    background-color: #4285F4!important
+    /*background-color: #4285F4!important*/
 }
 
 .primary-color-dark {
@@ -2709,7 +2709,7 @@ input[type=range] {
 }
 
 a {
-    color: #0275d8;
+    /*color: #0275d8;*/
     cursor: pointer
 }
 
@@ -6989,7 +6989,7 @@ button:focus {
 .btn-secondary:active:hover {
     background-color: #b579d2!important
 }
-
+/*
 .btn-primary {
     background: #4285F4;
     color: #fff!important
@@ -7003,7 +7003,7 @@ button:focus {
 .btn-primary.active {
     background-color: #0b51c5!important
 }
-
+*/
 .btn-default {
     background: #2BBBAD
 }
@@ -10797,6 +10797,20 @@ input[type=range]:focus::-ms-fill-upper {
     transition: transform 1s
 }
 
+
+@media(max-width:1200px) {
+    .center-card {
+        left:15%;
+    }
+
+}
+@media(max-width:992px) {
+    .center-card {
+        left:50%;
+    }
+
+}
+
 .card-wrapper .back,
 .card-wrapper .front,
 .pswp,
@@ -13306,7 +13320,7 @@ button.toast-close-button {
 }
 
 .blue-skin .btn-primary {
-    background: #4285F4
+    /*background: #4285F4*/
 }
 
 .blue-skin .btn-primary:focus,
