@@ -7662,7 +7662,7 @@ label {
     font-size: .8rem;
     color: darken #ccc, 90%
 }
-
+/*
 .form-control {
     padding: .5rem 0 .6rem;
     font-size: 1rem;
@@ -7688,7 +7688,7 @@ label {
     background-color: transparent;
     border-bottom: 1px solid #e0e0e0
 }
-
+*/
 .md-form {
     position: relative
 }
@@ -10758,7 +10758,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .card-wrapper .avatar {
-    border-radius: 50%;
+ /*   border-radius: 50%;*/
     display: block;
     height: 120px;
     margin: -65px auto 0;

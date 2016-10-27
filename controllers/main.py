@@ -48,7 +48,9 @@ def setCurPlayerOfDay():
 	teamPicList = request.args.get('teamPic').split('_')
         #print(str(message) + " " + str(url) + " " + str(day))
         for i in range(len(nameList)):
-		update("update curPlayerOfDay set day='"+day + "',name='"+nameList[i]+"',url='"+urlList[i]+"',stats='"+statsList[i]+"',teamPic='" + teamPicList[i] + "' where id = " + str(i+1) + ";")
+		stats = statsList[i]
+		stats = stats.replace('^','+')
+		update("update curPlayerOfDay set day='"+day + "',name='"+nameList[i]+"',url='"+urlList[i]+"',stats='"+stats+"',teamPic='" + teamPicList[i] + "' where id = " + str(i+1) + ";")
                 #update('insert into playerOfDay (day,message,url,stats) values ("'+day+'","'+message + '","' + url+'","' + stats + '");')
         #print(message)
         #print(dateStr)
@@ -61,6 +63,7 @@ def setPlayerOfDay():
 	url = request.args.get('url')
 	day = request.args.get('day')
 	stats = request.args.get('stats')
+	stats = stats.replace('^','+')
 	#print(str(message) + " " + str(url) + " " + str(day))
 	if message != "":
 		print(stats)
@@ -129,12 +132,12 @@ def checkForUpdate_route():
 @main.route('/checkSubscription')
 def checkSubscription_route():
 	phone = request.args.get('phone')
-	record = execute('Select name,scoringPlays from subscription where phone="'+phone + '";')
+	record = execute('Select name,scoringPlays,playerOfDay from subscription where phone="'+phone + '";')
 	if record==None:
-		response = json.jsonify(name='',update="TRUE",status=200)
+		response = json.jsonify(name='',update="TRUE",playerOfDay="FALSE",status=200)
 		return response
 	else:
-		response = json.jsonify(name=record[0],update=record[1],status=200)
+		response = json.jsonify(name=record[0],update=record[1],playerOfDay=record[2],status=200)
 		return response
 	return 'OK'
 
